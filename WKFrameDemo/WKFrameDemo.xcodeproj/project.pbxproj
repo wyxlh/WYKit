@@ -18,6 +18,10 @@
 		883118301EDE75200058C867 /* WKUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8831182F1EDE75200058C867 /* WKUserCenterViewController.m */; };
 		883118331EDE754F0058C867 /* WKMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118321EDE754F0058C867 /* WKMoreViewController.m */; };
 		883118371EDE97460058C867 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883118361EDE97460058C867 /* Images.xcassets */; };
+		8831183B1EDEAB830058C867 /* WKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8831183A1EDEAB830058C867 /* WKRequest.m */; };
+		8831183E1EDEABA40058C867 /* WKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8831183D1EDEABA40058C867 /* WKBaseModel.m */; };
+		883118411EDEABAC0058C867 /* SKSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118401EDEABAC0058C867 /* SKSafeObject.m */; };
+		883118441EDEABC10058C867 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118431EDEABC10058C867 /* NSString+Extension.m */; };
 		88BFB0311ED91DEC00224138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0301ED91DEC00224138 /* main.m */; };
 		88BFB0341ED91DEC00224138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0331ED91DEC00224138 /* AppDelegate.m */; };
 		88BFB0371ED91DEC00224138 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0361ED91DEC00224138 /* ViewController.m */; };
@@ -73,6 +77,14 @@
 		883118311EDE754F0058C867 /* WKMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKMoreViewController.h; sourceTree = "<group>"; };
 		883118321EDE754F0058C867 /* WKMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKMoreViewController.m; sourceTree = "<group>"; };
 		883118361EDE97460058C867 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		883118391EDEAB830058C867 /* WKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKRequest.h; sourceTree = "<group>"; };
+		8831183A1EDEAB830058C867 /* WKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKRequest.m; sourceTree = "<group>"; };
+		8831183C1EDEABA40058C867 /* WKBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKBaseModel.h; sourceTree = "<group>"; };
+		8831183D1EDEABA40058C867 /* WKBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKBaseModel.m; sourceTree = "<group>"; };
+		8831183F1EDEABAC0058C867 /* SKSafeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSafeObject.h; sourceTree = "<group>"; };
+		883118401EDEABAC0058C867 /* SKSafeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSafeObject.m; sourceTree = "<group>"; };
+		883118421EDEABC10058C867 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		883118431EDEABC10058C867 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		88BFB02C1ED91DEC00224138 /* WKFrameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKFrameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BFB0301ED91DEC00224138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88BFB0321ED91DEC00224138 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -330,6 +342,28 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		883118381EDEAB6A0058C867 /* WKRequest */ = {
+			isa = PBXGroup;
+			children = (
+				883118391EDEAB830058C867 /* WKRequest.h */,
+				8831183A1EDEAB830058C867 /* WKRequest.m */,
+				8831183C1EDEABA40058C867 /* WKBaseModel.h */,
+				8831183D1EDEABA40058C867 /* WKBaseModel.m */,
+				8831183F1EDEABAC0058C867 /* SKSafeObject.h */,
+				883118401EDEABAC0058C867 /* SKSafeObject.m */,
+				883118421EDEABC10058C867 /* NSString+Extension.h */,
+				883118431EDEABC10058C867 /* NSString+Extension.m */,
+			);
+			path = WKRequest;
+			sourceTree = "<group>";
+		};
+		883118451EDEACB20058C867 /* OtherHelp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OtherHelp;
+			sourceTree = "<group>";
+		};
 		88BFB0231ED91DEC00224138 = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +411,8 @@
 		88BFB02F1ED91DEC00224138 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				883118451EDEACB20058C867 /* OtherHelp */,
+				883118381EDEAB6A0058C867 /* WKRequest */,
 				883117A31EDE60180058C867 /* BaseVCAndModel */,
 				883118091EDE6B420058C867 /* Confings */,
 				883117D21EDE6A2C0058C867 /* NavbarAndTabbar */,
@@ -608,14 +644,18 @@
 				883118051EDE6AD30058C867 /* WKNavigationController.m in Sources */,
 				88BFB0341ED91DEC00224138 /* AppDelegate.m in Sources */,
 				883118271EDE74450058C867 /* WKHomeViewController.m in Sources */,
+				8831183B1EDEAB830058C867 /* WKRequest.m in Sources */,
 				883118081EDE6AF80058C867 /* WKBaseViewController.m in Sources */,
 				883118331EDE754F0058C867 /* WKMoreViewController.m in Sources */,
 				883117FF1EDE6A580058C867 /* WKNavigationView.m in Sources */,
+				8831183E1EDEABA40058C867 /* WKBaseModel.m in Sources */,
 				883118301EDE75200058C867 /* WKUserCenterViewController.m in Sources */,
+				883118411EDEABAC0058C867 /* SKSafeObject.m in Sources */,
 				8831182D1EDE74F60058C867 /* WKShoppingCartViewController.m in Sources */,
 				88BFB0311ED91DEC00224138 /* main.m in Sources */,
 				883118021EDE6A760058C867 /* WKTabbarController.m in Sources */,
 				8831182A1EDE74D40058C867 /* WKCategoryViewController.m in Sources */,
+				883118441EDEABC10058C867 /* NSString+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

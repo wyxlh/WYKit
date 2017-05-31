@@ -9,7 +9,7 @@
 #ifndef WKConfigs_h
 #define WKConfigs_h
 
-//#import <AFNetworking.h>
+#import <AFNetworking.h>
 //#import <MJRefresh.h>
 //#import <SDWebImage/UIImageView+WebCache.h>
 //#import <MJExtension.h>
@@ -17,8 +17,8 @@
 //#import <IQKeyboardManager.h>
 //#import <Masonry.h>
 #import "WKNavigationView.h"
-//#import "WKRequest.h"
-//#import "NSString+Extension.h"
-//#import "WKBaseModel.h"
+#import "WKRequest.h"
+#import "NSString+Extension.h"
+#import "WKBaseModel.h"
 //#import "UIView+Frame.h"
 #endif
