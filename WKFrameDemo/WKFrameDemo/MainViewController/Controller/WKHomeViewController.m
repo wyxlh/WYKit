@@ -17,7 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title=@"首页";
+    [self netRequest];
    
+}
+
+-(void)netRequest{
+    NSString *homeUrl = @"/home/index";
+    [WKRequest getWithURLString:homeUrl parameters:nil success:^(WKBaseModel *baseModel) {
+        
+    } failure:^(NSError *errer) {
+        
+    }];
+    
 }
 
 

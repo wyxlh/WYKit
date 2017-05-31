@@ -37,7 +37,7 @@
      *  请求超时的时间
      */
     manager.requestSerializer.timeoutInterval = TIMEOUT;
-    NSString *hostUrl=[NSString stringWithFormat:@"%@%@",TOMMY_REQUEST_URL,urlString];
+    NSString *hostUrl=[NSString stringWithFormat:@"%@%@",HOST_URL,urlString];
      DLog(@"%@",hostUrl);
     [manager GET:hostUrl parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (successBlock) {
@@ -69,7 +69,7 @@
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     manager.responseSerializer = [AFHTTPResponseSerializer serializer];
     manager.requestSerializer.timeoutInterval = TIMEOUT;
-    NSString *hostUrl=[NSString stringWithFormat:@"%@%@",TOMMY_REQUEST_URL,urlString];
+    NSString *hostUrl=[NSString stringWithFormat:@"%@%@",HOST_URL,urlString];
     DLog(@"%@",hostUrl);
     [manager POST:hostUrl parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         if (successBlock) {

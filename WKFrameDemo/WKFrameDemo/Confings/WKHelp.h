@@ -48,8 +48,8 @@
 
 // 定义服务器地址
 // 测试
-#define TOMMY_REQUEST_URL   @"http://114.80.62.242:88/tommycms/api/index.php/version2/"
+//#define TOMMY_REQUEST_URL   @"http://114.80.62.242:88/tommycms/api/index.php/version2/"
 
 // 正式
-//#define TOMMY_REQUEST_URL   @"http://www.tommyapp.com.cn/api/index.php/version2/"
+#define HOST_URL   @"http://www.tommyapp.com.cn/api/index.php/version2/"
 #endif /* WKHelp_h */

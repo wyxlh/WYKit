@@ -18,6 +18,8 @@
     if ( self ) {
         if ( aJson && [aJson isKindOfClass:[NSDictionary class]] ) {
             self.mDictionary = [NSMutableDictionary dictionaryWithDictionary:aJson];
+            self.result       = [aJson objectForKey:@"result"];
+            self.message      = [aJson objectForKey:@"message"];
         }
     }
     
