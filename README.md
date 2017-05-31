@@ -1,18 +1,20 @@
 # WYKit
-# 网络请求的使用
-# get请求 
+ 网络请求的使用
+ get请求 
 
-#  NSString *homeUrl = @"/home/index";
-#  [WKRequest getWithURLString:homeUrl parameters:nil success:^(WKBaseModel *baseModel) {
+ NSString *homeUrl = @"/home/index";
+ [WKRequest getWithURLString:homeUrl parameters:nil success:^(WKBaseModel *baseModel) {
 
-#    } failure:^(NSError *errer) {
+    } failure:^(NSError *errer) {
 
-#   }];
+ }];
 
-# post 请求
+post 请求
 
-# [WKRequest postWithURLString:homeUrl parameters:@{@"1":@"type"} success:^(WKBaseModel *baseModel) {
+NSMutableDictionary *parm=[NSMutableDictionary dictionary];
+[parm setObject:@"1" forKey:@"type"];
+[WKRequest postWithURLString:homeUrl parameters:parm success:^(WKBaseModel *baseModel) {
 
-# } failure:^(NSError *errer) {
+} failure:^(NSError *errer) {
 
-# }];
+}];
