@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		404C3FFAE7D75E7CABB51A80 /* libPods-WKFrameDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 418881AD2CB6FF4102F483BF /* libPods-WKFrameDemo.a */; };
+		88126DEE1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88126DEC1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.m */; };
+		88126DEF1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88126DED1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.xib */; };
+		88126DF41EE91F86009FD746 /* ZXCenterBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 88126DF21EE91F86009FD746 /* ZXCenterBtn.m */; };
+		88126DF51EE91F86009FD746 /* ZXCenterBtn.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88126DF31EE91F86009FD746 /* ZXCenterBtn.xib */; };
 		883117FF1EDE6A580058C867 /* WKNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 883117FE1EDE6A580058C867 /* WKNavigationView.m */; };
 		883118021EDE6A760058C867 /* WKTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118011EDE6A760058C867 /* WKTabbarController.m */; };
 		883118051EDE6AD30058C867 /* WKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118041EDE6AD30058C867 /* WKNavigationController.m */; };
@@ -56,6 +60,12 @@
 /* Begin PBXFileReference section */
 		418881AD2CB6FF4102F483BF /* libPods-WKFrameDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WKFrameDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB598FC836E7FD6DD7F7EBE /* Pods-WKFrameDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKFrameDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WKFrameDemo/Pods-WKFrameDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		88126DEB1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeFourChooseTableViewCell.h; sourceTree = "<group>"; };
+		88126DEC1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeFourChooseTableViewCell.m; sourceTree = "<group>"; };
+		88126DED1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKHomeFourChooseTableViewCell.xib; sourceTree = "<group>"; };
+		88126DF11EE91F86009FD746 /* ZXCenterBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCenterBtn.h; sourceTree = "<group>"; };
+		88126DF21EE91F86009FD746 /* ZXCenterBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCenterBtn.m; sourceTree = "<group>"; };
+		88126DF31EE91F86009FD746 /* ZXCenterBtn.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXCenterBtn.xib; sourceTree = "<group>"; };
 		883117FD1EDE6A580058C867 /* WKNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKNavigationView.h; sourceTree = "<group>"; };
 		883117FE1EDE6A580058C867 /* WKNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKNavigationView.m; sourceTree = "<group>"; };
 		883118001EDE6A760058C867 /* WKTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTabbarController.h; sourceTree = "<group>"; };
@@ -211,6 +221,12 @@
 		883118111EDE6FED0058C867 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				88126DF11EE91F86009FD746 /* ZXCenterBtn.h */,
+				88126DF21EE91F86009FD746 /* ZXCenterBtn.m */,
+				88126DF31EE91F86009FD746 /* ZXCenterBtn.xib */,
+				88126DEB1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.h */,
+				88126DEC1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.m */,
+				88126DED1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -569,10 +585,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88126DEF1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.xib in Resources */,
 				88BFB03F1ED91DEC00224138 /* LaunchScreen.storyboard in Resources */,
 				883118371EDE97460058C867 /* Images.xcassets in Resources */,
 				88BFB03C1ED91DEC00224138 /* Assets.xcassets in Resources */,
 				88BFB03A1ED91DEC00224138 /* Main.storyboard in Resources */,
+				88126DF51EE91F86009FD746 /* ZXCenterBtn.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -645,9 +663,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88126DF41EE91F86009FD746 /* ZXCenterBtn.m in Sources */,
 				88BFB0371ED91DEC00224138 /* ViewController.m in Sources */,
 				883118491EDEE1B80058C867 /* WKHomeModel.m in Sources */,
 				883118051EDE6AD30058C867 /* WKNavigationController.m in Sources */,
+				88126DEE1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.m in Sources */,
 				88BFB0341ED91DEC00224138 /* AppDelegate.m in Sources */,
 				883118271EDE74450058C867 /* WKHomeViewController.m in Sources */,
 				8831183B1EDEAB830058C867 /* WKRequest.m in Sources */,

@@ -35,6 +35,14 @@
 
 #define ZERO  [baseModel.result isEqualToString:@"0"]
 
+// 设置view的圆角和边框
+#define SKViewsBorder(View,radius,width,color)\
+\
+[View.layer setCornerRadius:(radius)];\
+[View.layer setMasksToBounds:YES];\
+[View.layer setBorderWidth:(width)];\
+[View.layer setBorderColor:[color CGColor]];
+
 #pragma mark ---------------------------------LOG--------------------------------------------------
 //打印Log
 #ifdef DEBUG
