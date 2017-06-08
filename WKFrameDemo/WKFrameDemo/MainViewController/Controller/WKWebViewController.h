@@ -7,7 +7,9 @@
 //
 
 #import "WKBaseViewController.h"
-
+#import <WebKit/WebKit.h>
 @interface WKWebViewController : WKBaseViewController
-
+@property (nonatomic, copy)NSString      *urlString;
+@property (nonatomic, strong)WKWebView   *mainWeb;
+@property (nonatomic, copy) NSString     *navTitle;
 @end

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "WKHomeTextModel.h"
 @interface WKHomeFourChooseTableViewCell : UITableViewCell
-
+@property (nonatomic, strong) NSArray                 *titleArray;
+@property (nonatomic, strong) WKBaseViewController    *superVC;
 @end

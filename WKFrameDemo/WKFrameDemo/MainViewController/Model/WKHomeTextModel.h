@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface WKHomeTextModel : NSObject
-
+@property (nonatomic, copy) NSString *annName;
+@property (nonatomic, copy) NSString *annId;
+@property (nonatomic, copy) NSString *pageurl;
+@property (nonatomic, copy) NSString *status;
 @end

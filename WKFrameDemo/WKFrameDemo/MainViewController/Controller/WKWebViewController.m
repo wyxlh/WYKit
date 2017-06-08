@@ -8,7 +8,7 @@
 
 #import "WKWebViewController.h"
 
-@interface WKWebViewController ()
+@interface WKWebViewController ()<WKUIDelegate,WKNavigationDelegate>
 
 @end
 
@@ -16,22 +16,51 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.title = self.navTitle;
+    [self.mainWeb loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.urlString]]];
+}
+// 页面开始加载时调用
+- (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation
+{
+    dispatch_barrier_async(dispatch_get_main_queue(), ^(void){
+        //        [self startLoading];
+    });
+}
+// 当内容开始返回时调用
+- (void)webView:(WKWebView *)webView didCommitNavigation:(WKNavigation *)navigation
+{
+    
+}
+// 页面加载完成之后调用
+- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation
+{
+    //    [self stopLoaing];
+}
+// 页面加载失败时调用
+- (void)webView:(WKWebView *)webView didFailProvisionalNavigation:(WKNavigation *)navigation
+{
+    //    [self stopLoaing];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)backItemTouched:(id)sender{
+    if ([self.mainWeb canGoBack]) {
+        [self.mainWeb goBack];
+    }else{
+        [self.navigationController popViewControllerAnimated:YES];
+    }
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (WKWebView *)mainWeb
+{
+    if (!_mainWeb) {
+        _mainWeb = [[WKWebView alloc]initWithFrame:CGRectMake(0, NavHeight, ScreenWidth, ScreenHeight - NavHeight)];
+        _mainWeb.navigationDelegate = self;
+        _mainWeb.UIDelegate = self;
+        [self.view addSubview:_mainWeb];
+    }
+    return _mainWeb;
 }
-*/
+
 
 @end

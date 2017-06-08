@@ -4,6 +4,7 @@
 //  Copyright © 2016年 maxin. All rights reserved.
 //
 #import "NewsView.h"
+#import "WKHomeTextModel.h"
 @implementation NewsView
 @synthesize titleLabel;
 @synthesize newsButton;
@@ -26,11 +27,15 @@ static int countInt=0;
     return self;
 }
 
--(void)setViewTitle:(NSArray *)array{
+-(void)setArray:(NSArray *)array{
+    _array = array;
     if (array.count==0) {
         return;
     }
-    self.dataArray = array;
+    
+    for (WKHomeTextModel *model in array) {
+        [self.dataArray addObject:model.annName];
+    }
     [titleLabel setText:[self.dataArray objectAtIndex:countInt]];
     [newsButton addTarget:self action:@selector(topNewsInfoClicked:) forControlEvents:UIControlEventTouchUpInside];
     //设置定时器
@@ -41,10 +46,17 @@ static int countInt=0;
 
 }
 
+-(NSMutableArray *)dataArray{
+    if (!_dataArray) {
+        _dataArray = [NSMutableArray arrayWithCapacity:0];
+    }
+    return _dataArray;
+}
 
 -(void)displayNews{
     countInt++;
-    if (countInt >= [ self.dataArray count])
+    DLog(@"%d",countInt);
+    if (countInt >= [ self.array count])
         countInt=0;
     [UIView animateWithDuration:0.5 animations:^{
         titleLabel.frame = CGRectMake(0,-30, 211, 30);

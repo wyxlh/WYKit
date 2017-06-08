@@ -21,5 +21,6 @@
 #import "NSString+Extension.h"
 #import "WKBaseModel.h"
 #import <SDCycleScrollView.h>
+#import "WKBaseViewController.h"
 //#import "UIView+Frame.h"
 #endif

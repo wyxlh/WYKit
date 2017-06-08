@@ -9,9 +9,12 @@
 #import "WKHomeViewController.h"
 #import "WKHomeModel.h"
 #import "WKHomeFourChooseTableViewCell.h"
+#import "WKHomeTextModel.h"
+#import "WKWebViewController.h"
 @interface WKHomeViewController ()<UITableViewDelegate,UITableViewDataSource,SDCycleScrollViewDelegate>
 @property (nonatomic, strong) WKHomeModel *model;
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NSArray     *textArr;
 @end
 
 @implementation WKHomeViewController
@@ -31,7 +34,23 @@
     [WKRequest getWithURLString:homeUrl parameters:nil success:^(WKBaseModel *baseModel) {
         if (ZERO) {
             weakSelf.model = [WKHomeModel mj_objectWithKeyValues:baseModel.mDictionary];
-            NSString *str = [[weakSelf.model.topicList[0] layoutList] layoutHeight];
+//            NSString *str = [[weakSelf.model.topicList[0] layoutList] layoutHeight];
+            [weakSelf newProduct];
+            
+        }
+        
+    } failure:^(NSError *errer) {
+        
+    }];
+}
+
+#pragma mark 滚动的title
+-(void)newProduct{
+    NSString *homeUrl = @"newProduct/index";
+    WS(weakSelf)
+    [WKRequest getWithURLString:homeUrl parameters:nil success:^(WKBaseModel *baseModel) {
+        if (ZERO) {
+            weakSelf.textArr = [WKHomeTextModel mj_objectArrayWithKeyValuesArray:[baseModel.mDictionary objectForKey:@"annList"]];
             [weakSelf reloadData];
         }
         
@@ -39,6 +58,9 @@
         
     }];
 }
+
+
+
 #pragma mark 刷新表格
 -(void)reloadData{
     [self.tableView.mj_header endRefreshing];
@@ -54,6 +76,8 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row==0) {
         WKHomeFourChooseTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"WKHomeFourChooseTableViewCell" forIndexPath:indexPath];
+        cell.titleArray = self.textArr;
+        cell.superVC = self;
         return cell;
     }
     return [UITableViewCell new];
@@ -61,7 +85,7 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
-        return 70;
+        return 100;
     }
     return 0;
 }
@@ -96,8 +120,9 @@
 
 #pragma mark SDCycleScrollViewDelegate
 -(void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didScrollToIndex:(NSInteger)index{
-    DLog(@"%ld",index);
+//    DLog(@"%ld",index);
 }
+
 
 #pragma mark 懒加载
 -(UITableView *)tableView{
@@ -115,5 +140,6 @@
     }
     return _tableView;
 }
+
 
 @end

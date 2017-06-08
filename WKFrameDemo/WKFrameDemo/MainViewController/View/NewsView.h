@@ -10,8 +10,8 @@
 @interface NewsView : UIView
 @property (retain, nonatomic) UILabel *titleLabel;
 @property (retain, nonatomic) UIButton *newsButton;
-@property (strong,nonatomic) NSArray *dataArray;
+@property (strong,nonatomic) NSMutableArray *dataArray;
 @property (strong ,nonatomic) NSTimer *timer;
--(void)setViewTitle:(NSArray *)array;
+@property (nonatomic, strong) NSArray *array;
 @property (nonatomic,copy)void (^ClickBlick)(NSInteger tag);
 @end

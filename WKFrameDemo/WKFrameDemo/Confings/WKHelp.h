@@ -30,6 +30,9 @@
 #define APPPurplefontcolor      [UIColor colorWithRed:0.f/255 green:22.f/255 blue:75.f/255      alpha:1] // 蓝色
 
 #define APPbluefontcolor        [UIColor colorWithRed:23.f/255 green:153.f/255 blue:90.f/255      alpha:1] // Tommy绿色
+
+#define APPDarkBlueBgColor      [UIColor colorWithRed:0.f/255 green:22.f/255 blue:75.f/255      alpha:1] // Tommy蓝色
+
 //Button 字体
 #define BtnTextFont [UIFont systemFontOfSize:14]
 

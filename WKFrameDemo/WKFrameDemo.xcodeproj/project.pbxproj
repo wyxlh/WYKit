@@ -12,6 +12,9 @@
 		88126DEF1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88126DED1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.xib */; };
 		88126DF41EE91F86009FD746 /* ZXCenterBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 88126DF21EE91F86009FD746 /* ZXCenterBtn.m */; };
 		88126DF51EE91F86009FD746 /* ZXCenterBtn.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88126DF31EE91F86009FD746 /* ZXCenterBtn.xib */; };
+		8819D02C1EE93D13007393C0 /* NewsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819D02B1EE93D13007393C0 /* NewsView.m */; };
+		8819D02F1EE94151007393C0 /* WKHomeTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819D02E1EE94151007393C0 /* WKHomeTextModel.m */; };
+		8819D0321EE946FB007393C0 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819D0311EE946FB007393C0 /* WKWebViewController.m */; };
 		883117FF1EDE6A580058C867 /* WKNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 883117FE1EDE6A580058C867 /* WKNavigationView.m */; };
 		883118021EDE6A760058C867 /* WKTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118011EDE6A760058C867 /* WKTabbarController.m */; };
 		883118051EDE6AD30058C867 /* WKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118041EDE6AD30058C867 /* WKNavigationController.m */; };
@@ -66,6 +69,12 @@
 		88126DF11EE91F86009FD746 /* ZXCenterBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCenterBtn.h; sourceTree = "<group>"; };
 		88126DF21EE91F86009FD746 /* ZXCenterBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCenterBtn.m; sourceTree = "<group>"; };
 		88126DF31EE91F86009FD746 /* ZXCenterBtn.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXCenterBtn.xib; sourceTree = "<group>"; };
+		8819D02A1EE93D13007393C0 /* NewsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsView.h; sourceTree = "<group>"; };
+		8819D02B1EE93D13007393C0 /* NewsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsView.m; sourceTree = "<group>"; };
+		8819D02D1EE94151007393C0 /* WKHomeTextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeTextModel.h; sourceTree = "<group>"; };
+		8819D02E1EE94151007393C0 /* WKHomeTextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeTextModel.m; sourceTree = "<group>"; };
+		8819D0301EE946FB007393C0 /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		8819D0311EE946FB007393C0 /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
 		883117FD1EDE6A580058C867 /* WKNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKNavigationView.h; sourceTree = "<group>"; };
 		883117FE1EDE6A580058C867 /* WKNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKNavigationView.m; sourceTree = "<group>"; };
 		883118001EDE6A760058C867 /* WKTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTabbarController.h; sourceTree = "<group>"; };
@@ -205,6 +214,8 @@
 			children = (
 				883118251EDE74450058C867 /* WKHomeViewController.h */,
 				883118261EDE74450058C867 /* WKHomeViewController.m */,
+				8819D0301EE946FB007393C0 /* WKWebViewController.h */,
+				8819D0311EE946FB007393C0 /* WKWebViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -214,6 +225,8 @@
 			children = (
 				883118471EDEE1B80058C867 /* WKHomeModel.h */,
 				883118481EDEE1B80058C867 /* WKHomeModel.m */,
+				8819D02D1EE94151007393C0 /* WKHomeTextModel.h */,
+				8819D02E1EE94151007393C0 /* WKHomeTextModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -221,6 +234,8 @@
 		883118111EDE6FED0058C867 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8819D02A1EE93D13007393C0 /* NewsView.h */,
+				8819D02B1EE93D13007393C0 /* NewsView.m */,
 				88126DF11EE91F86009FD746 /* ZXCenterBtn.h */,
 				88126DF21EE91F86009FD746 /* ZXCenterBtn.m */,
 				88126DF31EE91F86009FD746 /* ZXCenterBtn.xib */,
@@ -668,14 +683,17 @@
 				883118491EDEE1B80058C867 /* WKHomeModel.m in Sources */,
 				883118051EDE6AD30058C867 /* WKNavigationController.m in Sources */,
 				88126DEE1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.m in Sources */,
+				8819D0321EE946FB007393C0 /* WKWebViewController.m in Sources */,
 				88BFB0341ED91DEC00224138 /* AppDelegate.m in Sources */,
 				883118271EDE74450058C867 /* WKHomeViewController.m in Sources */,
 				8831183B1EDEAB830058C867 /* WKRequest.m in Sources */,
+				8819D02F1EE94151007393C0 /* WKHomeTextModel.m in Sources */,
 				883118081EDE6AF80058C867 /* WKBaseViewController.m in Sources */,
 				883118331EDE754F0058C867 /* WKMoreViewController.m in Sources */,
 				883117FF1EDE6A580058C867 /* WKNavigationView.m in Sources */,
 				8831183E1EDEABA40058C867 /* WKBaseModel.m in Sources */,
 				883118301EDE75200058C867 /* WKUserCenterViewController.m in Sources */,
+				8819D02C1EE93D13007393C0 /* NewsView.m in Sources */,
 				883118411EDEABAC0058C867 /* SKSafeObject.m in Sources */,
 				8831182D1EDE74F60058C867 /* WKShoppingCartViewController.m in Sources */,
 				88BFB0311ED91DEC00224138 /* main.m in Sources */,
