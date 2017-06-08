@@ -33,6 +33,8 @@
 //Button 字体
 #define BtnTextFont [UIFont systemFontOfSize:14]
 
+#define ZERO  [baseModel.result isEqualToString:@"0"]
+
 #pragma mark ---------------------------------LOG--------------------------------------------------
 //打印Log
 #ifdef DEBUG

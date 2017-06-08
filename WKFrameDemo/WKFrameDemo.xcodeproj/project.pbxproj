@@ -22,6 +22,7 @@
 		8831183E1EDEABA40058C867 /* WKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8831183D1EDEABA40058C867 /* WKBaseModel.m */; };
 		883118411EDEABAC0058C867 /* SKSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118401EDEABAC0058C867 /* SKSafeObject.m */; };
 		883118441EDEABC10058C867 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118431EDEABC10058C867 /* NSString+Extension.m */; };
+		883118491EDEE1B80058C867 /* WKHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118481EDEE1B80058C867 /* WKHomeModel.m */; };
 		88BFB0311ED91DEC00224138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0301ED91DEC00224138 /* main.m */; };
 		88BFB0341ED91DEC00224138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0331ED91DEC00224138 /* AppDelegate.m */; };
 		88BFB0371ED91DEC00224138 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0361ED91DEC00224138 /* ViewController.m */; };
@@ -85,6 +86,8 @@
 		883118401EDEABAC0058C867 /* SKSafeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSafeObject.m; sourceTree = "<group>"; };
 		883118421EDEABC10058C867 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		883118431EDEABC10058C867 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		883118471EDEE1B80058C867 /* WKHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeModel.h; sourceTree = "<group>"; };
+		883118481EDEE1B80058C867 /* WKHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeModel.m; sourceTree = "<group>"; };
 		88BFB02C1ED91DEC00224138 /* WKFrameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKFrameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BFB0301ED91DEC00224138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88BFB0321ED91DEC00224138 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -199,6 +202,8 @@
 		883118101EDE6FDF0058C867 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				883118471EDEE1B80058C867 /* WKHomeModel.h */,
+				883118481EDEE1B80058C867 /* WKHomeModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -641,6 +646,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88BFB0371ED91DEC00224138 /* ViewController.m in Sources */,
+				883118491EDEE1B80058C867 /* WKHomeModel.m in Sources */,
 				883118051EDE6AD30058C867 /* WKNavigationController.m in Sources */,
 				88BFB0341ED91DEC00224138 /* AppDelegate.m in Sources */,
 				883118271EDE74450058C867 /* WKHomeViewController.m in Sources */,
