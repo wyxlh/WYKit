@@ -55,7 +55,7 @@ static int countInt=0;
 
 -(void)displayNews{
     countInt++;
-    DLog(@"%d",countInt);
+//    DLog(@"%d",countInt);
     if (countInt >= [ self.array count])
         countInt=0;
     [UIView animateWithDuration:0.5 animations:^{

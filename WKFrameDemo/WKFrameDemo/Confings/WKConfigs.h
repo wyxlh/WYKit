@@ -22,5 +22,6 @@
 #import "WKBaseModel.h"
 #import <SDCycleScrollView.h>
 #import "WKBaseViewController.h"
+#import "SKSafeObject.h"
 //#import "UIView+Frame.h"
 #endif
