@@ -9,5 +9,5 @@
 #import "WKBaseViewController.h"
 
 @interface WKCategoryViewController : WKBaseViewController
-
+@property (nonatomic, copy) NSString *cId;
 @end

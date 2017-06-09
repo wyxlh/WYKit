@@ -52,6 +52,12 @@
 		88F894AF1EEA776D000F35AD /* SKSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894AE1EEA776D000F35AD /* SKSafeObject.m */; };
 		88F894B31EEA7956000F35AD /* WKHomeBottonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894B11EEA7956000F35AD /* WKHomeBottonTableViewCell.m */; };
 		88F894B41EEA7956000F35AD /* WKHomeBottonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F894B21EEA7956000F35AD /* WKHomeBottonTableViewCell.xib */; };
+		88F894B81EEA857D000F35AD /* WKCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894B71EEA857D000F35AD /* WKCategoryModel.m */; };
+		88F894BB1EEA8800000F35AD /* XLPlainFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894BA1EEA8800000F35AD /* XLPlainFlowLayout.m */; };
+		88F894C41EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894C21EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.m */; };
+		88F894C51EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F894C31EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.xib */; };
+		88F894C91EEA8C97000F35AD /* WKCategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894C71EEA8C97000F35AD /* WKCategoryCollectionViewCell.m */; };
+		88F894CA1EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F894C81EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +160,16 @@
 		88F894B01EEA7956000F35AD /* WKHomeBottonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeBottonTableViewCell.h; sourceTree = "<group>"; };
 		88F894B11EEA7956000F35AD /* WKHomeBottonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeBottonTableViewCell.m; sourceTree = "<group>"; };
 		88F894B21EEA7956000F35AD /* WKHomeBottonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKHomeBottonTableViewCell.xib; sourceTree = "<group>"; };
+		88F894B61EEA857D000F35AD /* WKCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKCategoryModel.h; sourceTree = "<group>"; };
+		88F894B71EEA857D000F35AD /* WKCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKCategoryModel.m; sourceTree = "<group>"; };
+		88F894B91EEA8800000F35AD /* XLPlainFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPlainFlowLayout.h; sourceTree = "<group>"; };
+		88F894BA1EEA8800000F35AD /* XLPlainFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPlainFlowLayout.m; sourceTree = "<group>"; };
+		88F894C11EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKCateSectionHeadCollectionReusableView.h; sourceTree = "<group>"; };
+		88F894C21EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKCateSectionHeadCollectionReusableView.m; sourceTree = "<group>"; };
+		88F894C31EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKCateSectionHeadCollectionReusableView.xib; sourceTree = "<group>"; };
+		88F894C61EEA8C97000F35AD /* WKCategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKCategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		88F894C71EEA8C97000F35AD /* WKCategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKCategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		88F894C81EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		ED7841C3E301992EBDEA2E53 /* Pods-WKFrameDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKFrameDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKFrameDemo/Pods-WKFrameDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -311,6 +327,8 @@
 		883118141EDE72FC0058C867 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				88F894B61EEA857D000F35AD /* WKCategoryModel.h */,
+				88F894B71EEA857D000F35AD /* WKCategoryModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,6 +336,14 @@
 		883118151EDE730B0058C867 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				88F894B91EEA8800000F35AD /* XLPlainFlowLayout.h */,
+				88F894BA1EEA8800000F35AD /* XLPlainFlowLayout.m */,
+				88F894C11EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.h */,
+				88F894C21EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.m */,
+				88F894C31EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.xib */,
+				88F894C61EEA8C97000F35AD /* WKCategoryCollectionViewCell.h */,
+				88F894C71EEA8C97000F35AD /* WKCategoryCollectionViewCell.m */,
+				88F894C81EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -645,12 +671,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F894C51EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.xib in Resources */,
 				88F894B41EEA7956000F35AD /* WKHomeBottonTableViewCell.xib in Resources */,
 				88126DEF1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.xib in Resources */,
 				88BFB03F1ED91DEC00224138 /* LaunchScreen.storyboard in Resources */,
 				883118371EDE97460058C867 /* Images.xcassets in Resources */,
 				88F894A71EEA71DE000F35AD /* WKHomeTwoImgTableViewCell.xib in Resources */,
 				88F894A21EEA6BAA000F35AD /* WKHomeOneImgTableViewCell.xib in Resources */,
+				88F894CA1EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib in Resources */,
 				88BFB03C1ED91DEC00224138 /* Assets.xcassets in Resources */,
 				88BFB03A1ED91DEC00224138 /* Main.storyboard in Resources */,
 				88F8949C1EEA424F000F35AD /* WKFirstImageTableViewCell.xib in Resources */,
@@ -728,6 +756,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F894C91EEA8C97000F35AD /* WKCategoryCollectionViewCell.m in Sources */,
 				88126DF41EE91F86009FD746 /* ZXCenterBtn.m in Sources */,
 				88BFB0371ED91DEC00224138 /* ViewController.m in Sources */,
 				883118491EDEE1B80058C867 /* WKHomeModel.m in Sources */,
@@ -737,6 +766,7 @@
 				8819D0321EE946FB007393C0 /* WKWebViewController.m in Sources */,
 				88BFB0341ED91DEC00224138 /* AppDelegate.m in Sources */,
 				883118271EDE74450058C867 /* WKHomeViewController.m in Sources */,
+				88F894B81EEA857D000F35AD /* WKCategoryModel.m in Sources */,
 				8831183B1EDEAB830058C867 /* WKRequest.m in Sources */,
 				88F894B31EEA7956000F35AD /* WKHomeBottonTableViewCell.m in Sources */,
 				88F8949B1EEA424F000F35AD /* WKFirstImageTableViewCell.m in Sources */,
@@ -749,10 +779,12 @@
 				883118301EDE75200058C867 /* WKUserCenterViewController.m in Sources */,
 				88F894AB1EEA7563000F35AD /* WKHomeThreeImgTableViewCell.m in Sources */,
 				88F894A61EEA71DE000F35AD /* WKHomeTwoImgTableViewCell.m in Sources */,
+				88F894BB1EEA8800000F35AD /* XLPlainFlowLayout.m in Sources */,
 				8819D02C1EE93D13007393C0 /* NewsView.m in Sources */,
 				883118411EDEABAC0058C867 /* SKSafeObject.m in Sources */,
 				8831182D1EDE74F60058C867 /* WKShoppingCartViewController.m in Sources */,
 				88BFB0311ED91DEC00224138 /* main.m in Sources */,
+				88F894C41EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.m in Sources */,
 				883118021EDE6A760058C867 /* WKTabbarController.m in Sources */,
 				8831182A1EDE74D40058C867 /* WKCategoryViewController.m in Sources */,
 				883118441EDEABC10058C867 /* NSString+Extension.m in Sources */,

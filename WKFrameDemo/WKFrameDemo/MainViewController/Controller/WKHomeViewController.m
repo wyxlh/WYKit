@@ -44,7 +44,6 @@
     [WKRequest getWithURLString:homeUrl parameters:nil success:^(WKBaseModel *baseModel) {
         if (ZERO) {
             weakSelf.model = [WKHomeModel mj_objectWithKeyValues:baseModel.mDictionary];
-//            NSString *str = [[weakSelf.model.topicList[0] layoutList] layoutHeight];
             [weakSelf newProduct];
             
         }

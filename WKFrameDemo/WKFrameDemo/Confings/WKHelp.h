@@ -36,7 +36,7 @@
 //Button 字体
 #define BtnTextFont [UIFont systemFontOfSize:14]
 
-#define ZERO  [baseModel.result isEqualToString:@"0"]
+#define ZERO  [baseModel.result integerValue] ==0
 
 // 设置view的圆角和边框
 #define SKViewsBorder(View,radius,width,color)\
