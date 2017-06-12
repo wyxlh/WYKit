@@ -45,6 +45,7 @@
         if (ZERO) {
             weakSelf.model = [WKHomeModel mj_objectWithKeyValues:baseModel.mDictionary];
             [weakSelf newProduct];
+            [SKToast showMessage:baseModel.message inView:weakSelf.view];
             
         }
         

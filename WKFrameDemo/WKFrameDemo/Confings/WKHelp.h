@@ -33,6 +33,8 @@
 
 #define APPDarkBlueBgColor      [UIColor colorWithRed:0.f/255 green:22.f/255 blue:75.f/255      alpha:1] // Tommy蓝色
 
+#define MSGreenColor CustomColor(153,205,80,1)
+
 //Button 字体
 #define BtnTextFont [UIFont systemFontOfSize:14]
 

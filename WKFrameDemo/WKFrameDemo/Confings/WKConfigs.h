@@ -16,6 +16,7 @@
 //#import <ReactiveCocoa.h>
 //#import <IQKeyboardManager.h>
 //#import <Masonry.h>
+#import "SKToast.h"
 #import "WKNavigationView.h"
 #import "WKRequest.h"
 #import "NSString+Extension.h"
@@ -23,5 +24,6 @@
 #import <SDCycleScrollView.h>
 #import "WKBaseViewController.h"
 #import "SKSafeObject.h"
-//#import "UIView+Frame.h"
+#import "UIView+Frame.h"
+#import <UIKit/UIKit.h>
 #endif

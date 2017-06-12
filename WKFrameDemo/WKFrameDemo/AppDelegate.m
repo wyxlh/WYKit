@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SKStartPageViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -58,8 +58,9 @@
         self.tabbar = [[WKTabbarController alloc] init];
         self.tabbar.delegate = (id)self;
     }
-    
-    [self.window setRootViewController:self.tabbar];
+    SKStartPageViewController *page = [SKStartPageViewController new];
+    [self.window setRootViewController:page];
+//    [self.window setRootViewController:self.tabbar];
     
     [self.window makeKeyAndVisible];
     

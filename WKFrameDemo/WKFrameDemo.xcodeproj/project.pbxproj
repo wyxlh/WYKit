@@ -30,6 +30,12 @@
 		883118411EDEABAC0058C867 /* SKSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118401EDEABAC0058C867 /* SKSafeObject.m */; };
 		883118441EDEABC10058C867 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118431EDEABC10058C867 /* NSString+Extension.m */; };
 		883118491EDEE1B80058C867 /* WKHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118481EDEE1B80058C867 /* WKHomeModel.m */; };
+		883796141EEE3C770065728D /* SKStartPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883796121EEE3C770065728D /* SKStartPageViewController.m */; };
+		883796151EEE3C770065728D /* SKStartPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 883796131EEE3C770065728D /* SKStartPageViewController.xib */; };
+		883796191EEE43A40065728D /* WKUserCenterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 883796171EEE43A40065728D /* WKUserCenterTableViewCell.m */; };
+		8837961A1EEE43A40065728D /* WKUserCenterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 883796181EEE43A40065728D /* WKUserCenterTableViewCell.xib */; };
+		8837961D1EEE485A0065728D /* WKUserCenterHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8837961C1EEE485A0065728D /* WKUserCenterHeadView.m */; };
+		8837961F1EEE48620065728D /* WKUserCenterHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8837961E1EEE48620065728D /* WKUserCenterHeadView.xib */; };
 		88BFB0311ED91DEC00224138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0301ED91DEC00224138 /* main.m */; };
 		88BFB0341ED91DEC00224138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0331ED91DEC00224138 /* AppDelegate.m */; };
 		88BFB0371ED91DEC00224138 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0361ED91DEC00224138 /* ViewController.m */; };
@@ -58,6 +64,8 @@
 		88F894C51EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F894C31EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.xib */; };
 		88F894C91EEA8C97000F35AD /* WKCategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894C71EEA8C97000F35AD /* WKCategoryCollectionViewCell.m */; };
 		88F894CA1EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F894C81EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib */; };
+		88F894CD1EEABB7B000F35AD /* SKToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894CC1EEABB7B000F35AD /* SKToast.m */; };
+		88F894D01EEABBE3000F35AD /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894CF1EEABBE3000F35AD /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +132,15 @@
 		883118431EDEABC10058C867 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		883118471EDEE1B80058C867 /* WKHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeModel.h; sourceTree = "<group>"; };
 		883118481EDEE1B80058C867 /* WKHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeModel.m; sourceTree = "<group>"; };
+		883796111EEE3C770065728D /* SKStartPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKStartPageViewController.h; sourceTree = "<group>"; };
+		883796121EEE3C770065728D /* SKStartPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKStartPageViewController.m; sourceTree = "<group>"; };
+		883796131EEE3C770065728D /* SKStartPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKStartPageViewController.xib; sourceTree = "<group>"; };
+		883796161EEE43A40065728D /* WKUserCenterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKUserCenterTableViewCell.h; sourceTree = "<group>"; };
+		883796171EEE43A40065728D /* WKUserCenterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKUserCenterTableViewCell.m; sourceTree = "<group>"; };
+		883796181EEE43A40065728D /* WKUserCenterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKUserCenterTableViewCell.xib; sourceTree = "<group>"; };
+		8837961B1EEE485A0065728D /* WKUserCenterHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKUserCenterHeadView.h; sourceTree = "<group>"; };
+		8837961C1EEE485A0065728D /* WKUserCenterHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKUserCenterHeadView.m; sourceTree = "<group>"; };
+		8837961E1EEE48620065728D /* WKUserCenterHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKUserCenterHeadView.xib; sourceTree = "<group>"; };
 		88BFB02C1ED91DEC00224138 /* WKFrameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKFrameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BFB0301ED91DEC00224138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88BFB0321ED91DEC00224138 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -170,6 +187,10 @@
 		88F894C61EEA8C97000F35AD /* WKCategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKCategoryCollectionViewCell.h; sourceTree = "<group>"; };
 		88F894C71EEA8C97000F35AD /* WKCategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKCategoryCollectionViewCell.m; sourceTree = "<group>"; };
 		88F894C81EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		88F894CB1EEABB7B000F35AD /* SKToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKToast.h; sourceTree = "<group>"; };
+		88F894CC1EEABB7B000F35AD /* SKToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKToast.m; sourceTree = "<group>"; };
+		88F894CE1EEABBE3000F35AD /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		88F894CF1EEABBE3000F35AD /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		ED7841C3E301992EBDEA2E53 /* Pods-WKFrameDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKFrameDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKFrameDemo/Pods-WKFrameDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -260,6 +281,9 @@
 				883118261EDE74450058C867 /* WKHomeViewController.m */,
 				8819D0301EE946FB007393C0 /* WKWebViewController.h */,
 				8819D0311EE946FB007393C0 /* WKWebViewController.m */,
+				883796111EEE3C770065728D /* SKStartPageViewController.h */,
+				883796121EEE3C770065728D /* SKStartPageViewController.m */,
+				883796131EEE3C770065728D /* SKStartPageViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -377,6 +401,12 @@
 		883118191EDE734D0058C867 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				883796161EEE43A40065728D /* WKUserCenterTableViewCell.h */,
+				883796171EEE43A40065728D /* WKUserCenterTableViewCell.m */,
+				883796181EEE43A40065728D /* WKUserCenterTableViewCell.xib */,
+				8837961B1EEE485A0065728D /* WKUserCenterHeadView.h */,
+				8837961C1EEE485A0065728D /* WKUserCenterHeadView.m */,
+				8837961E1EEE48620065728D /* WKUserCenterHeadView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -465,6 +495,10 @@
 		883118451EDEACB20058C867 /* OtherHelp */ = {
 			isa = PBXGroup;
 			children = (
+				88F894CE1EEABBE3000F35AD /* UIView+Frame.h */,
+				88F894CF1EEABBE3000F35AD /* UIView+Frame.m */,
+				88F894CB1EEABB7B000F35AD /* SKToast.h */,
+				88F894CC1EEABB7B000F35AD /* SKToast.m */,
 				88F894AD1EEA776D000F35AD /* SKSafeObject.h */,
 				88F894AE1EEA776D000F35AD /* SKSafeObject.m */,
 			);
@@ -677,8 +711,11 @@
 				88BFB03F1ED91DEC00224138 /* LaunchScreen.storyboard in Resources */,
 				883118371EDE97460058C867 /* Images.xcassets in Resources */,
 				88F894A71EEA71DE000F35AD /* WKHomeTwoImgTableViewCell.xib in Resources */,
+				883796151EEE3C770065728D /* SKStartPageViewController.xib in Resources */,
 				88F894A21EEA6BAA000F35AD /* WKHomeOneImgTableViewCell.xib in Resources */,
+				8837961F1EEE48620065728D /* WKUserCenterHeadView.xib in Resources */,
 				88F894CA1EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib in Resources */,
+				8837961A1EEE43A40065728D /* WKUserCenterTableViewCell.xib in Resources */,
 				88BFB03C1ED91DEC00224138 /* Assets.xcassets in Resources */,
 				88BFB03A1ED91DEC00224138 /* Main.storyboard in Resources */,
 				88F8949C1EEA424F000F35AD /* WKFirstImageTableViewCell.xib in Resources */,
@@ -759,6 +796,7 @@
 				88F894C91EEA8C97000F35AD /* WKCategoryCollectionViewCell.m in Sources */,
 				88126DF41EE91F86009FD746 /* ZXCenterBtn.m in Sources */,
 				88BFB0371ED91DEC00224138 /* ViewController.m in Sources */,
+				88F894CD1EEABB7B000F35AD /* SKToast.m in Sources */,
 				883118491EDEE1B80058C867 /* WKHomeModel.m in Sources */,
 				883118051EDE6AD30058C867 /* WKNavigationController.m in Sources */,
 				88F894AF1EEA776D000F35AD /* SKSafeObject.m in Sources */,
@@ -769,10 +807,12 @@
 				88F894B81EEA857D000F35AD /* WKCategoryModel.m in Sources */,
 				8831183B1EDEAB830058C867 /* WKRequest.m in Sources */,
 				88F894B31EEA7956000F35AD /* WKHomeBottonTableViewCell.m in Sources */,
+				88F894D01EEABBE3000F35AD /* UIView+Frame.m in Sources */,
 				88F8949B1EEA424F000F35AD /* WKFirstImageTableViewCell.m in Sources */,
 				8819D02F1EE94151007393C0 /* WKHomeTextModel.m in Sources */,
 				88F894A11EEA6BAA000F35AD /* WKHomeOneImgTableViewCell.m in Sources */,
 				883118081EDE6AF80058C867 /* WKBaseViewController.m in Sources */,
+				883796141EEE3C770065728D /* SKStartPageViewController.m in Sources */,
 				883118331EDE754F0058C867 /* WKMoreViewController.m in Sources */,
 				883117FF1EDE6A580058C867 /* WKNavigationView.m in Sources */,
 				8831183E1EDEABA40058C867 /* WKBaseModel.m in Sources */,
@@ -781,9 +821,11 @@
 				88F894A61EEA71DE000F35AD /* WKHomeTwoImgTableViewCell.m in Sources */,
 				88F894BB1EEA8800000F35AD /* XLPlainFlowLayout.m in Sources */,
 				8819D02C1EE93D13007393C0 /* NewsView.m in Sources */,
+				8837961D1EEE485A0065728D /* WKUserCenterHeadView.m in Sources */,
 				883118411EDEABAC0058C867 /* SKSafeObject.m in Sources */,
 				8831182D1EDE74F60058C867 /* WKShoppingCartViewController.m in Sources */,
 				88BFB0311ED91DEC00224138 /* main.m in Sources */,
+				883796191EEE43A40065728D /* WKUserCenterTableViewCell.m in Sources */,
 				88F894C41EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.m in Sources */,
 				883118021EDE6A760058C867 /* WKTabbarController.m in Sources */,
 				8831182A1EDE74D40058C867 /* WKCategoryViewController.m in Sources */,
