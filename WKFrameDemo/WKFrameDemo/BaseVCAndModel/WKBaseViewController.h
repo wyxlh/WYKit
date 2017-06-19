@@ -36,7 +36,6 @@
 /**
  *  添加左侧按钮，传入图片名
  *
- *  @param rightItemImageName  传入图片名
  */
 - (void)addleftItem:(NSString *)leftItemImageName;
 /**

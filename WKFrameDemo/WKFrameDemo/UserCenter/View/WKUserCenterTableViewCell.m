@@ -29,7 +29,7 @@
         ZXCenterBtn *btn=[[[NSBundle mainBundle] loadNibNamed:@"ZXCenterBtn" owner:nil options:nil] lastObject];
         btn.tag=i+1;
         btn.imgview.image=[UIImage imageNamed:kLoginTopImgArray[i]];
-        btn.frame=CGRectMake(i%4*ScreenWidth/4, i/4*70, ScreenWidth/4, 70);
+        btn.frame=CGRectMake(i%4*ScreenWidth/4, i/4*70, ScreenWidth/4, 90);
         btn.autoresizingMask = 0;
         btn.backgroundColor = [UIColor whiteColor];
         btn.countLbl.hidden=NO;

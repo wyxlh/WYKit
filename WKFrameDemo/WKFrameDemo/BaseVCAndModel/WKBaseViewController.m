@@ -113,7 +113,6 @@
 /**
  *  添加左按钮，传入图片名
  *
- *  @param leftItemImageName
  */
 -(void)addleftItem:(NSString *)leftItemImageName{
     
@@ -142,7 +141,6 @@
 /**
  *  添加右按钮，传入图片名
  *
- *  @param rightItemImageName
  */
 -(void)addrightItem:(NSString *)rightItemImageName{
     
@@ -168,7 +166,6 @@
 /**
  *  添加左侧按钮。传入一个Title
  *
- *  @param Title
  */
 - (void)addleftButton:(NSString *)Title{
     
@@ -196,7 +193,6 @@
 /**
  *  添加右侧按钮。传入一个Title
  *
- *  @param Title
  */
 - (void)addrightButton:(NSString *)Title{
     

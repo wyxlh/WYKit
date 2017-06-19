@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DED60D01FF2C14BD1A57C748F832F03B'
-               BlueprintName = 'Pods-WKFrameDemo'
+               BlueprintIdentifier = 'ED1D6706C3DE640711388EDB4CE0D7FA'
+               BlueprintName = 'YYModel'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-WKFrameDemo.a'>
+               BuildableName = 'libYYModel.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

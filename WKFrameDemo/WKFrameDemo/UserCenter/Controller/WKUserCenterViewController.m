@@ -9,9 +9,12 @@
 #import "WKUserCenterViewController.h"
 #import "WKUserCenterTableViewCell.h"
 #import "WKUserCenterHeadView.h"
-@interface WKUserCenterViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface WKUserCenterViewController ()<UITableViewDelegate,UITableViewDataSource>{
+
+}
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) WKUserCenterHeadView *headView;
+@property (nonatomic, strong) dispatch_group_t netWorkGroup;
 @end
 
 @implementation WKUserCenterViewController
@@ -20,7 +23,59 @@
     [super viewDidLoad];
     self.title=@"我的";
     [self.tableView reloadData];
+    self.netWorkGroup = dispatch_group_create();
+    [self netWork];
 }
+
+-(void)netWork{
+    WS(weakSelf)
+    dispatch_group_async(_netWorkGroup, dispatch_get_main_queue(), ^{
+        dispatch_group_enter(_netWorkGroup);
+        [weakSelf userInfo];
+    });
+    
+    dispatch_group_async(_netWorkGroup, dispatch_get_main_queue(), ^{
+        dispatch_group_enter(_netWorkGroup);
+        [weakSelf mobileVip];
+    });
+    
+    dispatch_group_notify(_netWorkGroup, dispatch_get_main_queue(), ^{
+        [weakSelf.tableView reloadData];
+    });
+    
+}
+#pragma mark  获取用户信息
+-(void)userInfo{
+    NSString *accounturl = @"userinfo/index";
+    WS(weakSelf)
+    [WKRequest postWithURLString:accounturl parameters:@{@"userId":@"38132"} success:^(WKBaseModel *baseModel) {
+        if (ZERO) {
+            dispatch_group_leave(weakSelf.netWorkGroup);
+        }
+        
+    } failure:^(NSError *errer) {
+        
+    }];
+}
+
+#pragma mark  获取用户优惠券
+-(void)mobileVip{
+    NSString *accounturl     = @"myCoupon/index";
+    NSDictionary *params    = [NSDictionary dictionaryWithObjectsAndKeys:
+                               @"38132",                                                                @"userId",
+                               @"10",                                                                  @"pageSize",
+                               @"1",  @"pageIndex",nil];
+    WS(weakSelf)
+    [WKRequest postWithURLString:accounturl parameters:params success:^(WKBaseModel *baseModel) {
+        if (ZERO) {
+            dispatch_group_leave(weakSelf.netWorkGroup);
+        }
+        
+    } failure:^(NSError *errer) {
+        
+    }];
+}
+
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return 1;
@@ -59,7 +114,7 @@
         _tableView.delegate=self;
         _tableView.dataSource=self;
         _tableView.separatorStyle=0;
-        _tableView.rowHeight = 210 ;
+        _tableView.rowHeight = 270 ;
         _tableView.tableHeaderView = self.headView;
         [_tableView registerNib:[UINib nibWithNibName:@"WKUserCenterTableViewCell" bundle:nil] forCellReuseIdentifier:@"WKUserCenterTableViewCell"];
         [self.view addSubview:_tableView];

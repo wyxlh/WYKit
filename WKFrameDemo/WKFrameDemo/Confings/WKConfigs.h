@@ -26,4 +26,6 @@
 #import "SKSafeObject.h"
 #import "UIView+Frame.h"
 #import <UIKit/UIKit.h>
+#import <YYModel.h>
+#import "SKSafeObject.h"
 #endif
