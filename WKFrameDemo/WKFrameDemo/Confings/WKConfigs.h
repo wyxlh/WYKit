@@ -13,7 +13,7 @@
 #import <MJRefresh.h>
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <MJExtension.h>
-//#import <ReactiveCocoa.h>
+#import <ReactiveCocoa.h>
 //#import <IQKeyboardManager.h>
 //#import <Masonry.h>
 #import "SKToast.h"
@@ -28,4 +28,5 @@
 #import <UIKit/UIKit.h>
 #import <YYModel.h>
 #import "SKSafeObject.h"
+#import "UITableViewCell+DisplayAnimation.h"
 #endif

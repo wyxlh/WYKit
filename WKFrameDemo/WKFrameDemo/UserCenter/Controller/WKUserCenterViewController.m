@@ -60,8 +60,8 @@
 
 #pragma mark  获取用户优惠券
 -(void)mobileVip{
-    NSString *accounturl     = @"myCoupon/index";
-    NSDictionary *params    = [NSDictionary dictionaryWithObjectsAndKeys:
+    NSString *accounturl      = @"myCoupon/index";
+    NSDictionary *params      = [NSDictionary dictionaryWithObjectsAndKeys:
                                @"38132",                                                                @"userId",
                                @"10",                                                                  @"pageSize",
                                @"1",  @"pageIndex",nil];
@@ -83,6 +83,7 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     WKUserCenterTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"WKUserCenterTableViewCell" forIndexPath:indexPath];
+    cell.superVC                    = self;
     return cell;
 }
 

@@ -19,7 +19,7 @@ typedef void (^FailureBlock)(NSError *errer);
 /**
  *   get 网络请求
  *
- *  @param UrlString    请求的网址字符串
+ *  @param urlString    请求的网址字符串
  *  @param parameters   请求的参数
  *  @param successBlock 请求成功回调
  *  @param failureBlock 请求失败回调
@@ -33,7 +33,7 @@ typedef void (^FailureBlock)(NSError *errer);
 /**
  *  post网络请求
  *
- *  @param UrlString    请求的网址字符串
+ *  @param urlString    请求的网址字符串
  *  @param parameters   请求的参数
  *  @param successBlock 请求成功回调
  *  @param failureBlock 请求失败回调

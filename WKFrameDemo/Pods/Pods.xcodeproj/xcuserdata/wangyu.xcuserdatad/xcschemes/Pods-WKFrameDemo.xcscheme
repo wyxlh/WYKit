@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DED60D01FF2C14BD1A57C748F832F03B'
+               BlueprintIdentifier = '74573A8ACD43CDE9A64C97C39D278B37'
                BlueprintName = 'Pods-WKFrameDemo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-WKFrameDemo.a'>

@@ -17,6 +17,13 @@ PODS:
   - LxDBAnything (1.1.0)
   - MJExtension (3.0.13)
   - MJRefresh (3.1.12)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
   - SDCycleScrollView (1.65):
     - SDWebImage (~> 3.7)
   - SDWebImage (3.8.2):
@@ -29,6 +36,7 @@ DEPENDENCIES:
   - LxDBAnything (~> 1.1.0)
   - MJExtension (~> 3.0.13)
   - MJRefresh (~> 3.1.12)
+  - ReactiveCocoa (~> 2.5)
   - SDCycleScrollView (~> 1.65)
   - SDWebImage (~> 3.6)
   - YYModel (~> 1.0.4)
@@ -38,10 +46,11 @@ SPEC CHECKSUMS:
   LxDBAnything: 154a2ad1ae32e70355d886b5443260543bb60c71
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 93e3e0376bec9f12261d164cbb826cc443f2c657
+PODFILE CHECKSUM: a0aa8ad69976e8588d974251dbc0c9d3d2b86b58
 
 COCOAPODS: 1.0.1

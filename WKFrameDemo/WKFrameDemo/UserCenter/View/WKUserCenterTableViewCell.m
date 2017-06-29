@@ -20,20 +20,44 @@
 
 #import "WKUserCenterTableViewCell.h"
 #import "ZXCenterBtn.h"
+#import "WKFirstViewController.h"
 @implementation WKUserCenterTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
     self.selectionStyle = 0;
-    for (int i=0; i<kLoginTopImgArray.count; i++) {
-        ZXCenterBtn *btn=[[[NSBundle mainBundle] loadNibNamed:@"ZXCenterBtn" owner:nil options:nil] lastObject];
-        btn.tag=i+1;
-        btn.imgview.image=[UIImage imageNamed:kLoginTopImgArray[i]];
-        btn.frame=CGRectMake(i%4*ScreenWidth/4, i/4*70, ScreenWidth/4, 90);
-        btn.autoresizingMask = 0;
-        btn.backgroundColor = [UIColor whiteColor];
-        btn.countLbl.hidden=NO;
+    for (int i = 0; i < kLoginTopImgArray.count; i ++) {
+        ZXCenterBtn *btn            = [[[NSBundle mainBundle] loadNibNamed:@"ZXCenterBtn" owner:nil options:nil] lastObject];
+        btn.tag                     = i+1;
+        btn.imgview.image           = [UIImage imageNamed:kLoginTopImgArray[i]];
+        btn.frame                   = CGRectMake(i%4*ScreenWidth/4, i/4*70, ScreenWidth/4, 90);
+        btn.autoresizingMask        = 0;
+        btn.backgroundColor         = [UIColor whiteColor];
+        btn.countLbl.hidden         = NO;
+        btn.userInteractionEnabled  = YES;
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]init];
+        @weakify(self)
+        [[tap rac_gestureSignal]subscribeNext:^(id x) {
+         @strongify(self)
+            [self jumpVC:i];
+        }];
+        [btn addGestureRecognizer:tap];
         [self addSubview:btn];
+    }
+}
+
+-(void)jumpVC:(NSInteger)index{
+    switch (index) {
+        case 0:
+        {
+            WKFirstViewController *first                = [WKFirstViewController new];
+            first.hidesBottomBarWhenPushed              = YES;
+            [self.superVC.navigationController pushViewController:first animated:YES];
+        }
+            break;
+            
+        default:
+            break;
     }
 }
 

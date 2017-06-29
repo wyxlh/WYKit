@@ -119,7 +119,7 @@
         return cell;
     }else if (indexPath.section == 8){
         WKHomeBottonTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"WKHomeBottonTableViewCell" forIndexPath:indexPath];
-        cell.model = self.model.topicList [indexPath.section-1];
+//        cell.model = self.model.topicList [indexPath.section-1];
         return cell;
     }
     return [UITableViewCell new];

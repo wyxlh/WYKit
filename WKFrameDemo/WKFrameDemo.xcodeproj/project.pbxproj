@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		404C3FFAE7D75E7CABB51A80 /* libPods-WKFrameDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 418881AD2CB6FF4102F483BF /* libPods-WKFrameDemo.a */; };
+		8806CC4B1F04A9BC0056C93C /* WKFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8806CC491F04A9BC0056C93C /* WKFirstViewController.m */; };
+		8806CC4C1F04A9BC0056C93C /* WKFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8806CC4A1F04A9BC0056C93C /* WKFirstViewController.xib */; };
+		8806CC501F04AAFE0056C93C /* WKFirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8806CC4E1F04AAFE0056C93C /* WKFirstTableViewCell.m */; };
+		8806CC511F04AAFE0056C93C /* WKFirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8806CC4F1F04AAFE0056C93C /* WKFirstTableViewCell.xib */; };
 		88126DEE1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88126DEC1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.m */; };
 		88126DEF1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88126DED1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.xib */; };
 		88126DF41EE91F86009FD746 /* ZXCenterBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 88126DF21EE91F86009FD746 /* ZXCenterBtn.m */; };
@@ -15,6 +19,11 @@
 		8819D02C1EE93D13007393C0 /* NewsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819D02B1EE93D13007393C0 /* NewsView.m */; };
 		8819D02F1EE94151007393C0 /* WKHomeTextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819D02E1EE94151007393C0 /* WKHomeTextModel.m */; };
 		8819D0321EE946FB007393C0 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8819D0311EE946FB007393C0 /* WKWebViewController.m */; };
+		88275D451F020DE3003C09A4 /* SKSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 88275D401F020DE3003C09A4 /* SKSafeObject.m */; };
+		88275D461F020DE3003C09A4 /* SKToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 88275D421F020DE3003C09A4 /* SKToast.m */; };
+		88275D471F020DE3003C09A4 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 88275D441F020DE3003C09A4 /* UIView+Frame.m */; };
+		88275D511F020EA9003C09A4 /* UITableViewCell+DisplayAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 88275D501F020EA9003C09A4 /* UITableViewCell+DisplayAnimation.m */; };
+		88275D541F020ED8003C09A4 /* UIScrollView+UITableViewCellDisplayAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 88275D531F020ED8003C09A4 /* UIScrollView+UITableViewCellDisplayAnimation.m */; };
 		883117FF1EDE6A580058C867 /* WKNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 883117FE1EDE6A580058C867 /* WKNavigationView.m */; };
 		883118021EDE6A760058C867 /* WKTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118011EDE6A760058C867 /* WKTabbarController.m */; };
 		883118051EDE6AD30058C867 /* WKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 883118041EDE6AD30058C867 /* WKNavigationController.m */; };
@@ -36,6 +45,7 @@
 		8837961A1EEE43A40065728D /* WKUserCenterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 883796181EEE43A40065728D /* WKUserCenterTableViewCell.xib */; };
 		8837961D1EEE485A0065728D /* WKUserCenterHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8837961C1EEE485A0065728D /* WKUserCenterHeadView.m */; };
 		8837961F1EEE48620065728D /* WKUserCenterHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8837961E1EEE48620065728D /* WKUserCenterHeadView.xib */; };
+		88BBE3201EF8F39C00715AA5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BBE31F1EF8F39C00715AA5 /* MapKit.framework */; };
 		88BFB0311ED91DEC00224138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0301ED91DEC00224138 /* main.m */; };
 		88BFB0341ED91DEC00224138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0331ED91DEC00224138 /* AppDelegate.m */; };
 		88BFB0371ED91DEC00224138 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0361ED91DEC00224138 /* ViewController.m */; };
@@ -55,7 +65,6 @@
 		88F894A71EEA71DE000F35AD /* WKHomeTwoImgTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F894A51EEA71DE000F35AD /* WKHomeTwoImgTableViewCell.xib */; };
 		88F894AB1EEA7563000F35AD /* WKHomeThreeImgTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894A91EEA7563000F35AD /* WKHomeThreeImgTableViewCell.m */; };
 		88F894AC1EEA7563000F35AD /* WKHomeThreeImgTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F894AA1EEA7563000F35AD /* WKHomeThreeImgTableViewCell.xib */; };
-		88F894AF1EEA776D000F35AD /* SKSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894AE1EEA776D000F35AD /* SKSafeObject.m */; };
 		88F894B31EEA7956000F35AD /* WKHomeBottonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894B11EEA7956000F35AD /* WKHomeBottonTableViewCell.m */; };
 		88F894B41EEA7956000F35AD /* WKHomeBottonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F894B21EEA7956000F35AD /* WKHomeBottonTableViewCell.xib */; };
 		88F894B81EEA857D000F35AD /* WKCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894B71EEA857D000F35AD /* WKCategoryModel.m */; };
@@ -64,8 +73,6 @@
 		88F894C51EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F894C31EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.xib */; };
 		88F894C91EEA8C97000F35AD /* WKCategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894C71EEA8C97000F35AD /* WKCategoryCollectionViewCell.m */; };
 		88F894CA1EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F894C81EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib */; };
-		88F894CD1EEABB7B000F35AD /* SKToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894CC1EEABB7B000F35AD /* SKToast.m */; };
-		88F894D01EEABBE3000F35AD /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894CF1EEABBE3000F35AD /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +95,12 @@
 /* Begin PBXFileReference section */
 		418881AD2CB6FF4102F483BF /* libPods-WKFrameDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WKFrameDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB598FC836E7FD6DD7F7EBE /* Pods-WKFrameDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKFrameDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WKFrameDemo/Pods-WKFrameDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8806CC481F04A9BC0056C93C /* WKFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKFirstViewController.h; sourceTree = "<group>"; };
+		8806CC491F04A9BC0056C93C /* WKFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKFirstViewController.m; sourceTree = "<group>"; };
+		8806CC4A1F04A9BC0056C93C /* WKFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKFirstViewController.xib; sourceTree = "<group>"; };
+		8806CC4D1F04AAFE0056C93C /* WKFirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKFirstTableViewCell.h; sourceTree = "<group>"; };
+		8806CC4E1F04AAFE0056C93C /* WKFirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKFirstTableViewCell.m; sourceTree = "<group>"; };
+		8806CC4F1F04AAFE0056C93C /* WKFirstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKFirstTableViewCell.xib; sourceTree = "<group>"; };
 		88126DEB1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeFourChooseTableViewCell.h; sourceTree = "<group>"; };
 		88126DEC1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeFourChooseTableViewCell.m; sourceTree = "<group>"; };
 		88126DED1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKHomeFourChooseTableViewCell.xib; sourceTree = "<group>"; };
@@ -100,6 +113,16 @@
 		8819D02E1EE94151007393C0 /* WKHomeTextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeTextModel.m; sourceTree = "<group>"; };
 		8819D0301EE946FB007393C0 /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
 		8819D0311EE946FB007393C0 /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		88275D3F1F020DE3003C09A4 /* SKSafeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSafeObject.h; sourceTree = "<group>"; };
+		88275D401F020DE3003C09A4 /* SKSafeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSafeObject.m; sourceTree = "<group>"; };
+		88275D411F020DE3003C09A4 /* SKToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKToast.h; sourceTree = "<group>"; };
+		88275D421F020DE3003C09A4 /* SKToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKToast.m; sourceTree = "<group>"; };
+		88275D431F020DE3003C09A4 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		88275D441F020DE3003C09A4 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		88275D4F1F020EA9003C09A4 /* UITableViewCell+DisplayAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+DisplayAnimation.h"; sourceTree = "<group>"; };
+		88275D501F020EA9003C09A4 /* UITableViewCell+DisplayAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+DisplayAnimation.m"; sourceTree = "<group>"; };
+		88275D521F020ED8003C09A4 /* UIScrollView+UITableViewCellDisplayAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+UITableViewCellDisplayAnimation.h"; sourceTree = "<group>"; };
+		88275D531F020ED8003C09A4 /* UIScrollView+UITableViewCellDisplayAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+UITableViewCellDisplayAnimation.m"; sourceTree = "<group>"; };
 		883117FD1EDE6A580058C867 /* WKNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKNavigationView.h; sourceTree = "<group>"; };
 		883117FE1EDE6A580058C867 /* WKNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKNavigationView.m; sourceTree = "<group>"; };
 		883118001EDE6A760058C867 /* WKTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTabbarController.h; sourceTree = "<group>"; };
@@ -141,6 +164,7 @@
 		8837961B1EEE485A0065728D /* WKUserCenterHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKUserCenterHeadView.h; sourceTree = "<group>"; };
 		8837961C1EEE485A0065728D /* WKUserCenterHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKUserCenterHeadView.m; sourceTree = "<group>"; };
 		8837961E1EEE48620065728D /* WKUserCenterHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKUserCenterHeadView.xib; sourceTree = "<group>"; };
+		88BBE31F1EF8F39C00715AA5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		88BFB02C1ED91DEC00224138 /* WKFrameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKFrameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BFB0301ED91DEC00224138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88BFB0321ED91DEC00224138 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -172,8 +196,6 @@
 		88F894A81EEA7563000F35AD /* WKHomeThreeImgTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeThreeImgTableViewCell.h; sourceTree = "<group>"; };
 		88F894A91EEA7563000F35AD /* WKHomeThreeImgTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeThreeImgTableViewCell.m; sourceTree = "<group>"; };
 		88F894AA1EEA7563000F35AD /* WKHomeThreeImgTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKHomeThreeImgTableViewCell.xib; sourceTree = "<group>"; };
-		88F894AD1EEA776D000F35AD /* SKSafeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSafeObject.h; sourceTree = "<group>"; };
-		88F894AE1EEA776D000F35AD /* SKSafeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSafeObject.m; sourceTree = "<group>"; };
 		88F894B01EEA7956000F35AD /* WKHomeBottonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKHomeBottonTableViewCell.h; sourceTree = "<group>"; };
 		88F894B11EEA7956000F35AD /* WKHomeBottonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKHomeBottonTableViewCell.m; sourceTree = "<group>"; };
 		88F894B21EEA7956000F35AD /* WKHomeBottonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKHomeBottonTableViewCell.xib; sourceTree = "<group>"; };
@@ -187,10 +209,6 @@
 		88F894C61EEA8C97000F35AD /* WKCategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKCategoryCollectionViewCell.h; sourceTree = "<group>"; };
 		88F894C71EEA8C97000F35AD /* WKCategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKCategoryCollectionViewCell.m; sourceTree = "<group>"; };
 		88F894C81EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
-		88F894CB1EEABB7B000F35AD /* SKToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKToast.h; sourceTree = "<group>"; };
-		88F894CC1EEABB7B000F35AD /* SKToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKToast.m; sourceTree = "<group>"; };
-		88F894CE1EEABBE3000F35AD /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
-		88F894CF1EEABBE3000F35AD /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		ED7841C3E301992EBDEA2E53 /* Pods-WKFrameDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKFrameDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKFrameDemo/Pods-WKFrameDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -201,6 +219,7 @@
 			files = (
 				88BFB0681ED91F0500224138 /* Foundation.framework in Frameworks */,
 				88BFB0661ED91EF400224138 /* SystemConfiguration.framework in Frameworks */,
+				88BBE3201EF8F39C00715AA5 /* MapKit.framework in Frameworks */,
 				88BFB0641ED91EED00224138 /* UIKit.framework in Frameworks */,
 				404C3FFAE7D75E7CABB51A80 /* libPods-WKFrameDemo.a in Frameworks */,
 			);
@@ -230,6 +249,41 @@
 				ED7841C3E301992EBDEA2E53 /* Pods-WKFrameDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8806CC471F04A9740056C93C /* CenterChildren */ = {
+			isa = PBXGroup;
+			children = (
+				8806CC481F04A9BC0056C93C /* WKFirstViewController.h */,
+				8806CC491F04A9BC0056C93C /* WKFirstViewController.m */,
+				8806CC4A1F04A9BC0056C93C /* WKFirstViewController.xib */,
+			);
+			path = CenterChildren;
+			sourceTree = "<group>";
+		};
+		88275D3E1F020DC0003C09A4 /* UIview */ = {
+			isa = PBXGroup;
+			children = (
+				88275D3F1F020DE3003C09A4 /* SKSafeObject.h */,
+				88275D401F020DE3003C09A4 /* SKSafeObject.m */,
+				88275D411F020DE3003C09A4 /* SKToast.h */,
+				88275D421F020DE3003C09A4 /* SKToast.m */,
+				88275D431F020DE3003C09A4 /* UIView+Frame.h */,
+				88275D441F020DE3003C09A4 /* UIView+Frame.m */,
+			);
+			name = UIview;
+			path = uiview;
+			sourceTree = "<group>";
+		};
+		88275D481F020E27003C09A4 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				88275D4F1F020EA9003C09A4 /* UITableViewCell+DisplayAnimation.h */,
+				88275D501F020EA9003C09A4 /* UITableViewCell+DisplayAnimation.m */,
+				88275D521F020ED8003C09A4 /* UIScrollView+UITableViewCellDisplayAnimation.h */,
+				88275D531F020ED8003C09A4 /* UIScrollView+UITableViewCellDisplayAnimation.m */,
+			);
+			path = UITableViewCell;
 			sourceTree = "<group>";
 		};
 		883117A31EDE60180058C867 /* BaseVCAndModel */ = {
@@ -387,6 +441,7 @@
 			children = (
 				8831182E1EDE75200058C867 /* WKUserCenterViewController.h */,
 				8831182F1EDE75200058C867 /* WKUserCenterViewController.m */,
+				8806CC471F04A9740056C93C /* CenterChildren */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -407,6 +462,9 @@
 				8837961B1EEE485A0065728D /* WKUserCenterHeadView.h */,
 				8837961C1EEE485A0065728D /* WKUserCenterHeadView.m */,
 				8837961E1EEE48620065728D /* WKUserCenterHeadView.xib */,
+				8806CC4D1F04AAFE0056C93C /* WKFirstTableViewCell.h */,
+				8806CC4E1F04AAFE0056C93C /* WKFirstTableViewCell.m */,
+				8806CC4F1F04AAFE0056C93C /* WKFirstTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -495,12 +553,8 @@
 		883118451EDEACB20058C867 /* OtherHelp */ = {
 			isa = PBXGroup;
 			children = (
-				88F894CE1EEABBE3000F35AD /* UIView+Frame.h */,
-				88F894CF1EEABBE3000F35AD /* UIView+Frame.m */,
-				88F894CB1EEABB7B000F35AD /* SKToast.h */,
-				88F894CC1EEABB7B000F35AD /* SKToast.m */,
-				88F894AD1EEA776D000F35AD /* SKSafeObject.h */,
-				88F894AE1EEA776D000F35AD /* SKSafeObject.m */,
+				88275D481F020E27003C09A4 /* UITableViewCell */,
+				88275D3E1F020DC0003C09A4 /* UIview */,
 			);
 			path = OtherHelp;
 			sourceTree = "<group>";
@@ -584,6 +638,7 @@
 		88BFB0621ED91EED00224138 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				88BBE31F1EF8F39C00715AA5 /* MapKit.framework */,
 				88BFB0671ED91F0500224138 /* Foundation.framework */,
 				88BFB0651ED91EF400224138 /* SystemConfiguration.framework */,
 				88BFB0631ED91EED00224138 /* UIKit.framework */,
@@ -667,6 +722,14 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 8UNEFE2V3S;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					88BFB0441ED91DEC00224138 = {
 						CreatedOnToolsVersion = 8.1;
@@ -708,12 +771,14 @@
 				88F894C51EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.xib in Resources */,
 				88F894B41EEA7956000F35AD /* WKHomeBottonTableViewCell.xib in Resources */,
 				88126DEF1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.xib in Resources */,
+				8806CC4C1F04A9BC0056C93C /* WKFirstViewController.xib in Resources */,
 				88BFB03F1ED91DEC00224138 /* LaunchScreen.storyboard in Resources */,
 				883118371EDE97460058C867 /* Images.xcassets in Resources */,
 				88F894A71EEA71DE000F35AD /* WKHomeTwoImgTableViewCell.xib in Resources */,
 				883796151EEE3C770065728D /* SKStartPageViewController.xib in Resources */,
 				88F894A21EEA6BAA000F35AD /* WKHomeOneImgTableViewCell.xib in Resources */,
 				8837961F1EEE48620065728D /* WKUserCenterHeadView.xib in Resources */,
+				8806CC511F04AAFE0056C93C /* WKFirstTableViewCell.xib in Resources */,
 				88F894CA1EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib in Resources */,
 				8837961A1EEE43A40065728D /* WKUserCenterTableViewCell.xib in Resources */,
 				88BFB03C1ED91DEC00224138 /* Assets.xcassets in Resources */,
@@ -793,21 +858,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88275D451F020DE3003C09A4 /* SKSafeObject.m in Sources */,
 				88F894C91EEA8C97000F35AD /* WKCategoryCollectionViewCell.m in Sources */,
 				88126DF41EE91F86009FD746 /* ZXCenterBtn.m in Sources */,
 				88BFB0371ED91DEC00224138 /* ViewController.m in Sources */,
-				88F894CD1EEABB7B000F35AD /* SKToast.m in Sources */,
 				883118491EDEE1B80058C867 /* WKHomeModel.m in Sources */,
+				88275D541F020ED8003C09A4 /* UIScrollView+UITableViewCellDisplayAnimation.m in Sources */,
 				883118051EDE6AD30058C867 /* WKNavigationController.m in Sources */,
-				88F894AF1EEA776D000F35AD /* SKSafeObject.m in Sources */,
 				88126DEE1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.m in Sources */,
 				8819D0321EE946FB007393C0 /* WKWebViewController.m in Sources */,
 				88BFB0341ED91DEC00224138 /* AppDelegate.m in Sources */,
 				883118271EDE74450058C867 /* WKHomeViewController.m in Sources */,
+				8806CC501F04AAFE0056C93C /* WKFirstTableViewCell.m in Sources */,
+				88275D471F020DE3003C09A4 /* UIView+Frame.m in Sources */,
 				88F894B81EEA857D000F35AD /* WKCategoryModel.m in Sources */,
 				8831183B1EDEAB830058C867 /* WKRequest.m in Sources */,
 				88F894B31EEA7956000F35AD /* WKHomeBottonTableViewCell.m in Sources */,
-				88F894D01EEABBE3000F35AD /* UIView+Frame.m in Sources */,
 				88F8949B1EEA424F000F35AD /* WKFirstImageTableViewCell.m in Sources */,
 				8819D02F1EE94151007393C0 /* WKHomeTextModel.m in Sources */,
 				88F894A11EEA6BAA000F35AD /* WKHomeOneImgTableViewCell.m in Sources */,
@@ -827,7 +893,10 @@
 				88BFB0311ED91DEC00224138 /* main.m in Sources */,
 				883796191EEE43A40065728D /* WKUserCenterTableViewCell.m in Sources */,
 				88F894C41EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.m in Sources */,
+				88275D511F020EA9003C09A4 /* UITableViewCell+DisplayAnimation.m in Sources */,
+				8806CC4B1F04A9BC0056C93C /* WKFirstViewController.m in Sources */,
 				883118021EDE6A760058C867 /* WKTabbarController.m in Sources */,
+				88275D461F020DE3003C09A4 /* SKToast.m in Sources */,
 				8831182A1EDE74D40058C867 /* WKCategoryViewController.m in Sources */,
 				883118441EDEABC10058C867 /* NSString+Extension.m in Sources */,
 			);

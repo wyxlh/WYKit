@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "WKBaseViewController.h"
 @interface WKUserCenterTableViewCell : UITableViewCell
-
+@property  (nonatomic, strong) WKBaseViewController *superVC;
 @end
