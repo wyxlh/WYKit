@@ -10,4 +10,5 @@ pod 'SDWebImage',   '~>3.6'      #图片缓存
 pod 'SDCycleScrollView', '~> 1.65' #自动轮播
 pod 'YYModel', '~> 1.0.4'
 pod 'ReactiveCocoa', '~> 2.5'
+pod 'Realm'
 end
