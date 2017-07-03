@@ -41,17 +41,17 @@
 
 -(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
     
-//    [cell startCellScaleAnimation]; 放大效果
-    [cell startCellDelayDisplayAnimationWithTableView:tableView];//延时效果
+    [cell startCellScaleAnimation]; //放大效果
+//    [cell startCellDelayDisplayAnimationWithTableView:tableView];//延时效果
 }
 
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView
-{
+//- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+//{
     // 延迟出现效果需要加这句
 //    if (_cellDisplayAnimationType == CellDisplayAnimationTypeDelayDisplay) {
-        [scrollView offsetWithScrollView];
+//        [scrollView offsetWithScrollView];
 //    }
-}
+//}
 
 
 

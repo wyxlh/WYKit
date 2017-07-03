@@ -21,6 +21,7 @@
 #import "WKUserCenterTableViewCell.h"
 #import "ZXCenterBtn.h"
 #import "WKFirstViewController.h"
+#import "WKCenterSecondViewController.h"
 @implementation WKUserCenterTableViewCell
 
 - (void)awakeFromNib {
@@ -55,7 +56,14 @@
             [self.superVC.navigationController pushViewController:first animated:YES];
         }
             break;
-            
+        case 1:
+        {
+            WKCenterSecondViewController *second        = [WKCenterSecondViewController new];
+            second.hidesBottomBarWhenPushed             = YES;
+            [self.superVC.navigationController pushViewController:second animated:YES];
+        }
+        
+            break;
         default:
             break;
     }

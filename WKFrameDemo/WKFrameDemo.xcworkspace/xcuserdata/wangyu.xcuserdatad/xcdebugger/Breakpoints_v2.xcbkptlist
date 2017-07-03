@@ -52,11 +52,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WKFrameDemo/UserCenter/View/WKUserCenterTableViewCell.m"
-            timestampString = "520400324.522209"
+            timestampString = "520496552.766475"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "-awakeFromNib"
             landmarkType = "7">
          </BreakpointContent>
@@ -68,11 +68,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WKFrameDemo/UserCenter/View/WKUserCenterTableViewCell.m"
-            timestampString = "520407076.719342"
+            timestampString = "520496552.766475"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "-jumpVC:"
             landmarkType = "7">
          </BreakpointContent>

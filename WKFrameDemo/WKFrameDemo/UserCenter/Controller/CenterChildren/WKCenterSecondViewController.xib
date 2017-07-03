@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WKCenterSecondViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="acf-Fu-JNm">
+                    <rect key="frame" x="61.5" y="100" width="252" height="159"/>
+                    <color key="backgroundColor" red="0.8862745098" green="0.41960784309999999" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="252" id="1Zp-lg-QWV"/>
+                        <constraint firstAttribute="height" constant="159" id="SMk-RG-jGh"/>
+                        <constraint firstAttribute="width" constant="252" id="acH-8c-8k1"/>
+                        <constraint firstAttribute="height" constant="159" id="tQV-2P-iQ3"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="1Zp-lg-QWV"/>
+                            <exclude reference="SMk-RG-jGh"/>
+                            <exclude reference="acH-8c-8k1"/>
+                            <exclude reference="tQV-2P-iQ3"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=compact-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="SMk-RG-jGh"/>
+                            <include reference="acH-8c-8k1"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="1Zp-lg-QWV"/>
+                            <include reference="tQV-2P-iQ3"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNy-rE-cBS">
+                    <rect key="frame" x="166" y="289" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="acf-Fu-JNm" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Fce-85-exP"/>
+                <constraint firstItem="MNy-rE-cBS" firstAttribute="centerX" secondItem="acf-Fu-JNm" secondAttribute="centerX" id="I1c-2I-S9B"/>
+                <constraint firstItem="MNy-rE-cBS" firstAttribute="top" secondItem="acf-Fu-JNm" secondAttribute="bottom" constant="30" id="Qim-xb-Glv"/>
+                <constraint firstItem="acf-Fu-JNm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Rj3-8b-yNA"/>
+                <constraint firstItem="acf-Fu-JNm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WFX-OQ-VYm"/>
+                <constraint firstItem="acf-Fu-JNm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="tsV-d9-1vc"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Fce-85-exP"/>
+                    <exclude reference="Rj3-8b-yNA"/>
+                    <exclude reference="WFX-OQ-VYm"/>
+                    <exclude reference="tsV-d9-1vc"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="Fce-85-exP"/>
+                    <include reference="Rj3-8b-yNA"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="WFX-OQ-VYm"/>
+                    <include reference="tsV-d9-1vc"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="-129.5" y="51.5"/>
+        </view>
+    </objects>
+</document>
