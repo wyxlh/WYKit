@@ -20,7 +20,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self netWork];
+//    [self netWork];
+    [self disapper];
 }
 
 -(void)netWork{
@@ -36,7 +37,7 @@
         }
         
     } failure:^(NSError *errer) {
-        
+        [weakSelf disapper];
     }];
 }
 

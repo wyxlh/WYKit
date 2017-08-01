@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WKCenterSecondViewController">
             <connections>
+                <outlet property="tableView" destination="Wb7-sW-jMb" id="4aY-mN-EqV"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,73 +20,19 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="acf-Fu-JNm">
-                    <rect key="frame" x="61.5" y="100" width="252" height="159"/>
-                    <color key="backgroundColor" red="0.8862745098" green="0.41960784309999999" blue="0.10980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="252" id="1Zp-lg-QWV"/>
-                        <constraint firstAttribute="height" constant="159" id="SMk-RG-jGh"/>
-                        <constraint firstAttribute="width" constant="252" id="acH-8c-8k1"/>
-                        <constraint firstAttribute="height" constant="159" id="tQV-2P-iQ3"/>
-                    </constraints>
-                    <variation key="default">
-                        <mask key="constraints">
-                            <exclude reference="1Zp-lg-QWV"/>
-                            <exclude reference="SMk-RG-jGh"/>
-                            <exclude reference="acH-8c-8k1"/>
-                            <exclude reference="tQV-2P-iQ3"/>
-                        </mask>
-                    </variation>
-                    <variation key="heightClass=compact-widthClass=compact">
-                        <mask key="constraints">
-                            <include reference="SMk-RG-jGh"/>
-                            <include reference="acH-8c-8k1"/>
-                        </mask>
-                    </variation>
-                    <variation key="heightClass=regular-widthClass=compact">
-                        <mask key="constraints">
-                            <include reference="1Zp-lg-QWV"/>
-                            <include reference="tQV-2P-iQ3"/>
-                        </mask>
-                    </variation>
-                </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNy-rE-cBS">
-                    <rect key="frame" x="166" y="289" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wb7-sW-jMb">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="acf-Fu-JNm" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Fce-85-exP"/>
-                <constraint firstItem="MNy-rE-cBS" firstAttribute="centerX" secondItem="acf-Fu-JNm" secondAttribute="centerX" id="I1c-2I-S9B"/>
-                <constraint firstItem="MNy-rE-cBS" firstAttribute="top" secondItem="acf-Fu-JNm" secondAttribute="bottom" constant="30" id="Qim-xb-Glv"/>
-                <constraint firstItem="acf-Fu-JNm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Rj3-8b-yNA"/>
-                <constraint firstItem="acf-Fu-JNm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WFX-OQ-VYm"/>
-                <constraint firstItem="acf-Fu-JNm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="tsV-d9-1vc"/>
+                <constraint firstAttribute="bottom" secondItem="Wb7-sW-jMb" secondAttribute="bottom" id="7mF-mL-Rcf"/>
+                <constraint firstItem="Wb7-sW-jMb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="Fdu-D5-XJn"/>
+                <constraint firstItem="Wb7-sW-jMb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="GIF-gb-MIS"/>
+                <constraint firstAttribute="trailing" secondItem="Wb7-sW-jMb" secondAttribute="trailing" id="x0w-yH-A8p"/>
             </constraints>
-            <variation key="default">
-                <mask key="constraints">
-                    <exclude reference="Fce-85-exP"/>
-                    <exclude reference="Rj3-8b-yNA"/>
-                    <exclude reference="WFX-OQ-VYm"/>
-                    <exclude reference="tsV-d9-1vc"/>
-                </mask>
-            </variation>
-            <variation key="heightClass=compact-widthClass=compact">
-                <mask key="constraints">
-                    <include reference="Fce-85-exP"/>
-                    <include reference="Rj3-8b-yNA"/>
-                </mask>
-            </variation>
-            <variation key="heightClass=regular-widthClass=compact">
-                <mask key="constraints">
-                    <include reference="WFX-OQ-VYm"/>
-                    <include reference="tsV-d9-1vc"/>
-                </mask>
-            </variation>
-            <point key="canvasLocation" x="-129.5" y="51.5"/>
+            <point key="canvasLocation" x="-338.5" y="-35.5"/>
         </view>
     </objects>
 </document>

@@ -7,8 +7,10 @@
 //
 
 #import "WKCenterSecondViewController.h"
-
-@interface WKCenterSecondViewController ()
+#import "WKSizeClassTableViewCell.h"
+#import "WKSizeClassFirstTableViewCell.h"
+@interface WKCenterSecondViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -16,8 +18,40 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    [self setUp];
 }
+
+-(void)setUp{
+    self.title                          = @"sizeClass";
+    self.tableView.delegate             = self;
+    self.tableView.dataSource           = self;
+    [self.tableView registerNib:[UINib nibWithNibName:@"WKSizeClassTableViewCell" bundle:nil] forCellReuseIdentifier:@"WKSizeClassTableViewCell"];
+    [self.tableView registerNib:[UINib nibWithNibName:@"WKSizeClassFirstTableViewCell" bundle:nil] forCellReuseIdentifier:@"WKSizeClassFirstTableViewCell"];
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 10;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.row == 0) {
+        WKSizeClassFirstTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"WKSizeClassFirstTableViewCell" forIndexPath:indexPath];
+        return cell;
+    }
+    WKSizeClassTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"WKSizeClassTableViewCell" forIndexPath:indexPath];
+    return cell;
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.row == 0) {
+        return 200;
+    }
+    return 100;
+    
+}
+
+
+
 
 
 

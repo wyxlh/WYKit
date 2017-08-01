@@ -47,6 +47,10 @@
 		8837961A1EEE43A40065728D /* WKUserCenterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 883796181EEE43A40065728D /* WKUserCenterTableViewCell.xib */; };
 		8837961D1EEE485A0065728D /* WKUserCenterHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8837961C1EEE485A0065728D /* WKUserCenterHeadView.m */; };
 		8837961F1EEE48620065728D /* WKUserCenterHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8837961E1EEE48620065728D /* WKUserCenterHeadView.xib */; };
+		8841F7251F0BA9BE000AE808 /* WKSizeClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8841F7231F0BA9BE000AE808 /* WKSizeClassTableViewCell.m */; };
+		8841F7261F0BA9BE000AE808 /* WKSizeClassTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8841F7241F0BA9BE000AE808 /* WKSizeClassTableViewCell.xib */; };
+		8841F72F1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8841F72D1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.m */; };
+		8841F7301F0BB296000AE808 /* WKSizeClassFirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8841F72E1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.xib */; };
 		88BBE3201EF8F39C00715AA5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BBE31F1EF8F39C00715AA5 /* MapKit.framework */; };
 		88BFB0311ED91DEC00224138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0301ED91DEC00224138 /* main.m */; };
 		88BFB0341ED91DEC00224138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0331ED91DEC00224138 /* AppDelegate.m */; };
@@ -169,6 +173,12 @@
 		8837961B1EEE485A0065728D /* WKUserCenterHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKUserCenterHeadView.h; sourceTree = "<group>"; };
 		8837961C1EEE485A0065728D /* WKUserCenterHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKUserCenterHeadView.m; sourceTree = "<group>"; };
 		8837961E1EEE48620065728D /* WKUserCenterHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKUserCenterHeadView.xib; sourceTree = "<group>"; };
+		8841F7221F0BA9BE000AE808 /* WKSizeClassTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKSizeClassTableViewCell.h; sourceTree = "<group>"; };
+		8841F7231F0BA9BE000AE808 /* WKSizeClassTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKSizeClassTableViewCell.m; sourceTree = "<group>"; };
+		8841F7241F0BA9BE000AE808 /* WKSizeClassTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKSizeClassTableViewCell.xib; sourceTree = "<group>"; };
+		8841F72C1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKSizeClassFirstTableViewCell.h; sourceTree = "<group>"; };
+		8841F72D1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKSizeClassFirstTableViewCell.m; sourceTree = "<group>"; };
+		8841F72E1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKSizeClassFirstTableViewCell.xib; sourceTree = "<group>"; };
 		88BBE31F1EF8F39C00715AA5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		88BFB02C1ED91DEC00224138 /* WKFrameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKFrameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BFB0301ED91DEC00224138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -346,6 +356,9 @@
 				883796111EEE3C770065728D /* SKStartPageViewController.h */,
 				883796121EEE3C770065728D /* SKStartPageViewController.m */,
 				883796131EEE3C770065728D /* SKStartPageViewController.xib */,
+				8841F72C1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.h */,
+				8841F72D1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.m */,
+				8841F72E1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -473,6 +486,9 @@
 				8806CC4D1F04AAFE0056C93C /* WKFirstTableViewCell.h */,
 				8806CC4E1F04AAFE0056C93C /* WKFirstTableViewCell.m */,
 				8806CC4F1F04AAFE0056C93C /* WKFirstTableViewCell.xib */,
+				8841F7221F0BA9BE000AE808 /* WKSizeClassTableViewCell.h */,
+				8841F7231F0BA9BE000AE808 /* WKSizeClassTableViewCell.m */,
+				8841F7241F0BA9BE000AE808 /* WKSizeClassTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -788,9 +804,11 @@
 				88F894A21EEA6BAA000F35AD /* WKHomeOneImgTableViewCell.xib in Resources */,
 				8837961F1EEE48620065728D /* WKUserCenterHeadView.xib in Resources */,
 				8806CC511F04AAFE0056C93C /* WKFirstTableViewCell.xib in Resources */,
+				8841F7301F0BB296000AE808 /* WKSizeClassFirstTableViewCell.xib in Resources */,
 				88F894CA1EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib in Resources */,
 				8837961A1EEE43A40065728D /* WKUserCenterTableViewCell.xib in Resources */,
 				88BFB03C1ED91DEC00224138 /* Assets.xcassets in Resources */,
+				8841F7261F0BA9BE000AE808 /* WKSizeClassTableViewCell.xib in Resources */,
 				88BFB03A1ED91DEC00224138 /* Main.storyboard in Resources */,
 				88F8949C1EEA424F000F35AD /* WKFirstImageTableViewCell.xib in Resources */,
 				88126DF51EE91F86009FD746 /* ZXCenterBtn.xib in Resources */,
@@ -884,8 +902,10 @@
 				8831183B1EDEAB830058C867 /* WKRequest.m in Sources */,
 				88F894B31EEA7956000F35AD /* WKHomeBottonTableViewCell.m in Sources */,
 				88F8949B1EEA424F000F35AD /* WKFirstImageTableViewCell.m in Sources */,
+				8841F7251F0BA9BE000AE808 /* WKSizeClassTableViewCell.m in Sources */,
 				8819D02F1EE94151007393C0 /* WKHomeTextModel.m in Sources */,
 				88F894A11EEA6BAA000F35AD /* WKHomeOneImgTableViewCell.m in Sources */,
+				8841F72F1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.m in Sources */,
 				883118081EDE6AF80058C867 /* WKBaseViewController.m in Sources */,
 				883796141EEE3C770065728D /* SKStartPageViewController.m in Sources */,
 				883118331EDE754F0058C867 /* WKMoreViewController.m in Sources */,
