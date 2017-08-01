@@ -28,5 +28,6 @@
 #import <UIKit/UIKit.h>
 #import <YYModel.h>
 #import "SKSafeObject.h"
+#import <LxDBAnything.h>
 #import "UITableViewCell+DisplayAnimation.h"
 #endif
