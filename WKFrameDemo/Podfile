@@ -6,7 +6,7 @@ pod 'AFNetworking', '~> 3.1.0' #网络请求
 pod 'LxDBAnything', '~> 1.1.0' #打印各种数据类型
 pod 'MJExtension', '~> 3.0.13'
 pod 'MJRefresh', '~> 3.1.12'
-pod 'SDWebImage',   '~>3.6'      #图片缓存
+pod 'SDWebImage'
 pod 'SDCycleScrollView', '~> 1.65' #自动轮播
 pod 'YYModel', '~> 1.0.4'
 pod 'ReactiveCocoa', '~> 2.5'

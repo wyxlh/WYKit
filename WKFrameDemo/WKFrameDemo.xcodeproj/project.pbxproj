@@ -51,6 +51,11 @@
 		8841F7261F0BA9BE000AE808 /* WKSizeClassTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8841F7241F0BA9BE000AE808 /* WKSizeClassTableViewCell.xib */; };
 		8841F72F1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8841F72D1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.m */; };
 		8841F7301F0BB296000AE808 /* WKSizeClassFirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8841F72E1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.xib */; };
+		88A2FF2C1F6267B600FE8107 /* LLActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2FF241F6267B600FE8107 /* LLActionSheetView.m */; };
+		88A2FF2D1F6267B600FE8107 /* LLBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2FF261F6267B600FE8107 /* LLBrowserImageView.m */; };
+		88A2FF2E1F6267B600FE8107 /* LLPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2FF281F6267B600FE8107 /* LLPhotoBrowser.m */; };
+		88A2FF2F1F6267B600FE8107 /* LLWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2FF2B1F6267B600FE8107 /* LLWaitingView.m */; };
+		88A2FF321F6269D900FE8107 /* WKPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2FF311F6269D900FE8107 /* WKPhotoViewController.m */; };
 		88BBE3201EF8F39C00715AA5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BBE31F1EF8F39C00715AA5 /* MapKit.framework */; };
 		88BFB0311ED91DEC00224138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0301ED91DEC00224138 /* main.m */; };
 		88BFB0341ED91DEC00224138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0331ED91DEC00224138 /* AppDelegate.m */; };
@@ -63,6 +68,8 @@
 		88BFB0641ED91EED00224138 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BFB0631ED91EED00224138 /* UIKit.framework */; };
 		88BFB0661ED91EF400224138 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BFB0651ED91EF400224138 /* SystemConfiguration.framework */; };
 		88BFB0681ED91F0500224138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BFB0671ED91F0500224138 /* Foundation.framework */; };
+		88EB4DA21F396B8E00D5A44F /* WKCenterThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EB4DA01F396B8E00D5A44F /* WKCenterThreeViewController.m */; };
+		88EB4DA31F396B8E00D5A44F /* WKCenterThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EB4DA11F396B8E00D5A44F /* WKCenterThreeViewController.xib */; };
 		88F8949B1EEA424F000F35AD /* WKFirstImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F894991EEA424F000F35AD /* WKFirstImageTableViewCell.m */; };
 		88F8949C1EEA424F000F35AD /* WKFirstImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F8949A1EEA424F000F35AD /* WKFirstImageTableViewCell.xib */; };
 		88F894A11EEA6BAA000F35AD /* WKHomeOneImgTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F8949F1EEA6BAA000F35AD /* WKHomeOneImgTableViewCell.m */; };
@@ -179,6 +186,17 @@
 		8841F72C1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKSizeClassFirstTableViewCell.h; sourceTree = "<group>"; };
 		8841F72D1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKSizeClassFirstTableViewCell.m; sourceTree = "<group>"; };
 		8841F72E1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKSizeClassFirstTableViewCell.xib; sourceTree = "<group>"; };
+		88A2FF231F6267B600FE8107 /* LLActionSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLActionSheetView.h; sourceTree = "<group>"; };
+		88A2FF241F6267B600FE8107 /* LLActionSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLActionSheetView.m; sourceTree = "<group>"; };
+		88A2FF251F6267B600FE8107 /* LLBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBrowserImageView.h; sourceTree = "<group>"; };
+		88A2FF261F6267B600FE8107 /* LLBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBrowserImageView.m; sourceTree = "<group>"; };
+		88A2FF271F6267B600FE8107 /* LLPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPhotoBrowser.h; sourceTree = "<group>"; };
+		88A2FF281F6267B600FE8107 /* LLPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPhotoBrowser.m; sourceTree = "<group>"; };
+		88A2FF291F6267B600FE8107 /* LLPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		88A2FF2A1F6267B600FE8107 /* LLWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLWaitingView.h; sourceTree = "<group>"; };
+		88A2FF2B1F6267B600FE8107 /* LLWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLWaitingView.m; sourceTree = "<group>"; };
+		88A2FF301F6269D900FE8107 /* WKPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKPhotoViewController.h; sourceTree = "<group>"; };
+		88A2FF311F6269D900FE8107 /* WKPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKPhotoViewController.m; sourceTree = "<group>"; };
 		88BBE31F1EF8F39C00715AA5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		88BFB02C1ED91DEC00224138 /* WKFrameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKFrameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BFB0301ED91DEC00224138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -199,6 +217,9 @@
 		88BFB0631ED91EED00224138 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		88BFB0651ED91EF400224138 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		88BFB0671ED91F0500224138 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88EB4D9F1F396B8E00D5A44F /* WKCenterThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKCenterThreeViewController.h; sourceTree = "<group>"; };
+		88EB4DA01F396B8E00D5A44F /* WKCenterThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKCenterThreeViewController.m; sourceTree = "<group>"; };
+		88EB4DA11F396B8E00D5A44F /* WKCenterThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKCenterThreeViewController.xib; sourceTree = "<group>"; };
 		88F894981EEA424F000F35AD /* WKFirstImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKFirstImageTableViewCell.h; sourceTree = "<group>"; };
 		88F894991EEA424F000F35AD /* WKFirstImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKFirstImageTableViewCell.m; sourceTree = "<group>"; };
 		88F8949A1EEA424F000F35AD /* WKFirstImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKFirstImageTableViewCell.xib; sourceTree = "<group>"; };
@@ -275,6 +296,11 @@
 				8806CC561F0625420056C93C /* WKCenterSecondViewController.h */,
 				8806CC571F0625420056C93C /* WKCenterSecondViewController.m */,
 				8806CC581F0625420056C93C /* WKCenterSecondViewController.xib */,
+				88EB4D9F1F396B8E00D5A44F /* WKCenterThreeViewController.h */,
+				88EB4DA01F396B8E00D5A44F /* WKCenterThreeViewController.m */,
+				88EB4DA11F396B8E00D5A44F /* WKCenterThreeViewController.xib */,
+				88A2FF301F6269D900FE8107 /* WKPhotoViewController.h */,
+				88A2FF311F6269D900FE8107 /* WKPhotoViewController.m */,
 			);
 			path = CenterChildren;
 			sourceTree = "<group>";
@@ -577,10 +603,27 @@
 		883118451EDEACB20058C867 /* OtherHelp */ = {
 			isa = PBXGroup;
 			children = (
+				88A2FF221F6267B600FE8107 /* LLPhotoBrowser */,
 				88275D481F020E27003C09A4 /* UITableViewCell */,
 				88275D3E1F020DC0003C09A4 /* UIview */,
 			);
 			path = OtherHelp;
+			sourceTree = "<group>";
+		};
+		88A2FF221F6267B600FE8107 /* LLPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				88A2FF231F6267B600FE8107 /* LLActionSheetView.h */,
+				88A2FF241F6267B600FE8107 /* LLActionSheetView.m */,
+				88A2FF251F6267B600FE8107 /* LLBrowserImageView.h */,
+				88A2FF261F6267B600FE8107 /* LLBrowserImageView.m */,
+				88A2FF271F6267B600FE8107 /* LLPhotoBrowser.h */,
+				88A2FF281F6267B600FE8107 /* LLPhotoBrowser.m */,
+				88A2FF291F6267B600FE8107 /* LLPhotoBrowserConfig.h */,
+				88A2FF2A1F6267B600FE8107 /* LLWaitingView.h */,
+				88A2FF2B1F6267B600FE8107 /* LLWaitingView.m */,
+			);
+			path = LLPhotoBrowser;
 			sourceTree = "<group>";
 		};
 		88BFB0231ED91DEC00224138 = {
@@ -806,6 +849,7 @@
 				8806CC511F04AAFE0056C93C /* WKFirstTableViewCell.xib in Resources */,
 				8841F7301F0BB296000AE808 /* WKSizeClassFirstTableViewCell.xib in Resources */,
 				88F894CA1EEA8C97000F35AD /* WKCategoryCollectionViewCell.xib in Resources */,
+				88EB4DA31F396B8E00D5A44F /* WKCenterThreeViewController.xib in Resources */,
 				8837961A1EEE43A40065728D /* WKUserCenterTableViewCell.xib in Resources */,
 				88BFB03C1ED91DEC00224138 /* Assets.xcassets in Resources */,
 				8841F7261F0BA9BE000AE808 /* WKSizeClassTableViewCell.xib in Resources */,
@@ -888,7 +932,9 @@
 				88275D451F020DE3003C09A4 /* SKSafeObject.m in Sources */,
 				88F894C91EEA8C97000F35AD /* WKCategoryCollectionViewCell.m in Sources */,
 				88126DF41EE91F86009FD746 /* ZXCenterBtn.m in Sources */,
+				88A2FF2F1F6267B600FE8107 /* LLWaitingView.m in Sources */,
 				88BFB0371ED91DEC00224138 /* ViewController.m in Sources */,
+				88EB4DA21F396B8E00D5A44F /* WKCenterThreeViewController.m in Sources */,
 				883118491EDEE1B80058C867 /* WKHomeModel.m in Sources */,
 				88275D541F020ED8003C09A4 /* UIScrollView+UITableViewCellDisplayAnimation.m in Sources */,
 				883118051EDE6AD30058C867 /* WKNavigationController.m in Sources */,
@@ -903,6 +949,7 @@
 				88F894B31EEA7956000F35AD /* WKHomeBottonTableViewCell.m in Sources */,
 				88F8949B1EEA424F000F35AD /* WKFirstImageTableViewCell.m in Sources */,
 				8841F7251F0BA9BE000AE808 /* WKSizeClassTableViewCell.m in Sources */,
+				88A2FF2D1F6267B600FE8107 /* LLBrowserImageView.m in Sources */,
 				8819D02F1EE94151007393C0 /* WKHomeTextModel.m in Sources */,
 				88F894A11EEA6BAA000F35AD /* WKHomeOneImgTableViewCell.m in Sources */,
 				8841F72F1F0BB296000AE808 /* WKSizeClassFirstTableViewCell.m in Sources */,
@@ -912,9 +959,12 @@
 				883117FF1EDE6A580058C867 /* WKNavigationView.m in Sources */,
 				8831183E1EDEABA40058C867 /* WKBaseModel.m in Sources */,
 				883118301EDE75200058C867 /* WKUserCenterViewController.m in Sources */,
+				88A2FF2C1F6267B600FE8107 /* LLActionSheetView.m in Sources */,
+				88A2FF321F6269D900FE8107 /* WKPhotoViewController.m in Sources */,
 				88F894AB1EEA7563000F35AD /* WKHomeThreeImgTableViewCell.m in Sources */,
 				88F894A61EEA71DE000F35AD /* WKHomeTwoImgTableViewCell.m in Sources */,
 				88F894BB1EEA8800000F35AD /* XLPlainFlowLayout.m in Sources */,
+				88A2FF2E1F6267B600FE8107 /* LLPhotoBrowser.m in Sources */,
 				8819D02C1EE93D13007393C0 /* NewsView.m in Sources */,
 				8837961D1EEE485A0065728D /* WKUserCenterHeadView.m in Sources */,
 				883118411EDEABAC0058C867 /* SKSafeObject.m in Sources */,

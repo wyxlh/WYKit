@@ -16,6 +16,7 @@
 #import "WKHomeTwoImgTableViewCell.h"
 #import "WKHomeThreeImgTableViewCell.h"
 #import "WKHomeBottonTableViewCell.h"
+#import "UIImageView+WebCache.h"
 #define FirstImageHeight ScreenWidth*220/750
 #define OneImageHeight ScreenWidth*420/750
 #define EFirstImageHeight ScreenWidth*160/750
@@ -33,6 +34,8 @@
     self.title = @"首页";
     self.view.backgroundColor = UIColorFromRGB(0xF6F5F2);
     [self.tableView.mj_header beginRefreshing];
+//     [[SDImageCache sharedImageCache] storeImage:[UIImage imageNamed:@""] imageData:[NSData data] forKey:urlString toDisk:YES completion:nil];
+
     
 }
 

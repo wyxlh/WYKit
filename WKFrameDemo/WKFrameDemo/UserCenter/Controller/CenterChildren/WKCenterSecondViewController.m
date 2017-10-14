@@ -9,6 +9,7 @@
 #import "WKCenterSecondViewController.h"
 #import "WKSizeClassTableViewCell.h"
 #import "WKSizeClassFirstTableViewCell.h"
+#import "WKCenterThreeViewController.h"
 @interface WKCenterSecondViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
@@ -48,6 +49,11 @@
     }
     return 100;
     
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    WKCenterThreeViewController *threeVC  = [WKCenterThreeViewController new];
+    [self.navigationController pushViewController:threeVC animated:YES];
 }
 
 

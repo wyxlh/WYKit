@@ -22,6 +22,7 @@
 #import "ZXCenterBtn.h"
 #import "WKFirstViewController.h"
 #import "WKCenterSecondViewController.h"
+#import "WKPhotoViewController.h"
 @implementation WKUserCenterTableViewCell
 
 - (void)awakeFromNib {
@@ -64,6 +65,12 @@
         }
         
             break;
+        case 2:
+        {
+            WKPhotoViewController *photo                = [WKPhotoViewController new];
+            photo.hidesBottomBarWhenPushed              = YES;
+            [self.superVC.navigationController pushViewController:photo animated:YES];
+        }
         default:
             break;
     }
