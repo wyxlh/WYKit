@@ -9,5 +9,5 @@
 #import "WKBaseViewController.h"
 
 @interface WKTableViewAnDetailViewController : WKBaseViewController
-
+@property (nonatomic, assign) NSInteger type;
 @end

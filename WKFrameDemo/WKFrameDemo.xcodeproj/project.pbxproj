@@ -56,6 +56,9 @@
 		88A2FF2E1F6267B600FE8107 /* LLPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2FF281F6267B600FE8107 /* LLPhotoBrowser.m */; };
 		88A2FF2F1F6267B600FE8107 /* LLWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2FF2B1F6267B600FE8107 /* LLWaitingView.m */; };
 		88A2FF321F6269D900FE8107 /* WKPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A2FF311F6269D900FE8107 /* WKPhotoViewController.m */; };
+		88B2C50B1F972495008ED548 /* WKTableAnimationsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B2C5091F972495008ED548 /* WKTableAnimationsListViewController.m */; };
+		88B2C50C1F972495008ED548 /* WKTableAnimationsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88B2C50A1F972495008ED548 /* WKTableAnimationsListViewController.xib */; };
+		88B2C50F1F972644008ED548 /* WKTableViewAnDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B2C50E1F972644008ED548 /* WKTableViewAnDetailViewController.m */; };
 		88BBE3201EF8F39C00715AA5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88BBE31F1EF8F39C00715AA5 /* MapKit.framework */; };
 		88BFB0311ED91DEC00224138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0301ED91DEC00224138 /* main.m */; };
 		88BFB0341ED91DEC00224138 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0331ED91DEC00224138 /* AppDelegate.m */; };
@@ -197,6 +200,11 @@
 		88A2FF2B1F6267B600FE8107 /* LLWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLWaitingView.m; sourceTree = "<group>"; };
 		88A2FF301F6269D900FE8107 /* WKPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKPhotoViewController.h; sourceTree = "<group>"; };
 		88A2FF311F6269D900FE8107 /* WKPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKPhotoViewController.m; sourceTree = "<group>"; };
+		88B2C5081F972495008ED548 /* WKTableAnimationsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTableAnimationsListViewController.h; sourceTree = "<group>"; };
+		88B2C5091F972495008ED548 /* WKTableAnimationsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTableAnimationsListViewController.m; sourceTree = "<group>"; };
+		88B2C50A1F972495008ED548 /* WKTableAnimationsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKTableAnimationsListViewController.xib; sourceTree = "<group>"; };
+		88B2C50D1F972644008ED548 /* WKTableViewAnDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTableViewAnDetailViewController.h; sourceTree = "<group>"; };
+		88B2C50E1F972644008ED548 /* WKTableViewAnDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTableViewAnDetailViewController.m; sourceTree = "<group>"; };
 		88BBE31F1EF8F39C00715AA5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		88BFB02C1ED91DEC00224138 /* WKFrameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKFrameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BFB0301ED91DEC00224138 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -301,6 +309,11 @@
 				88EB4DA11F396B8E00D5A44F /* WKCenterThreeViewController.xib */,
 				88A2FF301F6269D900FE8107 /* WKPhotoViewController.h */,
 				88A2FF311F6269D900FE8107 /* WKPhotoViewController.m */,
+				88B2C5081F972495008ED548 /* WKTableAnimationsListViewController.h */,
+				88B2C5091F972495008ED548 /* WKTableAnimationsListViewController.m */,
+				88B2C50A1F972495008ED548 /* WKTableAnimationsListViewController.xib */,
+				88B2C50D1F972644008ED548 /* WKTableViewAnDetailViewController.h */,
+				88B2C50E1F972644008ED548 /* WKTableViewAnDetailViewController.m */,
 			);
 			path = CenterChildren;
 			sourceTree = "<group>";
@@ -836,6 +849,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88F894C51EEA8B0A000F35AD /* WKCateSectionHeadCollectionReusableView.xib in Resources */,
+				88B2C50C1F972495008ED548 /* WKTableAnimationsListViewController.xib in Resources */,
 				88F894B41EEA7956000F35AD /* WKHomeBottonTableViewCell.xib in Resources */,
 				88126DEF1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.xib in Resources */,
 				8806CC5A1F0625420056C93C /* WKCenterSecondViewController.xib in Resources */,
@@ -938,6 +952,7 @@
 				883118491EDEE1B80058C867 /* WKHomeModel.m in Sources */,
 				88275D541F020ED8003C09A4 /* UIScrollView+UITableViewCellDisplayAnimation.m in Sources */,
 				883118051EDE6AD30058C867 /* WKNavigationController.m in Sources */,
+				88B2C50B1F972495008ED548 /* WKTableAnimationsListViewController.m in Sources */,
 				88126DEE1EE91EA2009FD746 /* WKHomeFourChooseTableViewCell.m in Sources */,
 				8819D0321EE946FB007393C0 /* WKWebViewController.m in Sources */,
 				88BFB0341ED91DEC00224138 /* AppDelegate.m in Sources */,
@@ -976,6 +991,7 @@
 				8806CC4B1F04A9BC0056C93C /* WKFirstViewController.m in Sources */,
 				883118021EDE6A760058C867 /* WKTabbarController.m in Sources */,
 				88275D461F020DE3003C09A4 /* SKToast.m in Sources */,
+				88B2C50F1F972644008ED548 /* WKTableViewAnDetailViewController.m in Sources */,
 				8806CC591F0625420056C93C /* WKCenterSecondViewController.m in Sources */,
 				8831182A1EDE74D40058C867 /* WKCategoryViewController.m in Sources */,
 				883118441EDEABC10058C867 /* NSString+Extension.m in Sources */,

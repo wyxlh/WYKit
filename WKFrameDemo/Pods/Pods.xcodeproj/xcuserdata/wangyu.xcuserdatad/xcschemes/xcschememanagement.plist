@@ -44,10 +44,15 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>zhUITableViewAnimations.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0A9C54E8892BABC089B679E64A4DA6EA</key>
+		<key>15A915CFE1A44291D3CFC2CE4DB3B881</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,17 +62,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>74573A8ACD43CDE9A64C97C39D278B37</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>928353533005A4198EBDA5B700D37B64</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>941F2AFE52257564C5E024877376C28F</key>
+		<key>99CDBB19BB106A40365D696C49C6ECA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9C51C42DB275A2AB2DD812EF9F798790</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,12 +82,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CEA2EAA0E68A6771C73EBE83D0E3965B</key>
+		<key>C6F527F75489E2BDE69EE75A42BF0AC0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DAF36EB1888A361C5AA1B124D7B08BF3</key>
+		<key>E09FB5AAAF6D3542A2D49D46EDF8C315</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FB810A8AC5E5E230480A5DDE823CE7E4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

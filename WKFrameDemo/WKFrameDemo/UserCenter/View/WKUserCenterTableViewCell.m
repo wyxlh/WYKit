@@ -23,6 +23,7 @@
 #import "WKFirstViewController.h"
 #import "WKCenterSecondViewController.h"
 #import "WKPhotoViewController.h"
+#import "WKTableAnimationsListViewController.h"
 @implementation WKUserCenterTableViewCell
 
 - (void)awakeFromNib {
@@ -70,6 +71,12 @@
             WKPhotoViewController *photo                = [WKPhotoViewController new];
             photo.hidesBottomBarWhenPushed              = YES;
             [self.superVC.navigationController pushViewController:photo animated:YES];
+        }
+        case 3:
+        {
+            WKTableAnimationsListViewController *anim   = [WKTableAnimationsListViewController new];
+            anim.hidesBottomBarWhenPushed               = YES;
+            [self.superVC.navigationController pushViewController:anim animated:YES];
         }
         default:
             break;

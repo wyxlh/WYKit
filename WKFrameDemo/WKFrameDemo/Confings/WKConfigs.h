@@ -30,4 +30,5 @@
 #import "SKSafeObject.h"
 #import <LxDBAnything.h>
 #import "UITableViewCell+DisplayAnimation.h"
+#import <zhUITableViewAnimations/zhTableViewAnimations.h>
 #endif

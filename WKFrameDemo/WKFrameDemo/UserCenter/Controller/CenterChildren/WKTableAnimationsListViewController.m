@@ -7,31 +7,45 @@
 //
 
 #import "WKTableAnimationsListViewController.h"
-
-@interface WKTableAnimationsListViewController ()
-
+#import "WKTableViewAnDetailViewController.h"
+@interface WKTableAnimationsListViewController ()<UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) NSArray *styles;
 @end
 
 @implementation WKTableAnimationsListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.title = @"表格动画";
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    self.tableView.delaysContentTouches = NO;
+    self.tableView.rowHeight = 60;
+    self.tableView.tableFooterView = [UIView new];
+    if (!_styles) {
+        _styles = @[@"SlideFromLeft", @"SlideFromRight", @"Fade", @"Fall", @"Vallum", @"Shakee", @"Flip", @"FlipX", @"Balloon", @"BalloonTop"];
+    }
+}
+#pragma mark - UITableViewDataSource
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return _styles.count;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+    }
+    cell.textLabel.text = _styles[indexPath.row];
+    return cell;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    WKTableViewAnDetailViewController *detail = [WKTableViewAnDetailViewController new];
+    detail.type = indexPath.row+1;
+    [self.navigationController pushViewController:detail animated:YES];
+    
 }
-*/
-
 @end
