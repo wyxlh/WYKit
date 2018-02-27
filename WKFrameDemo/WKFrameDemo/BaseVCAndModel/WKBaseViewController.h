@@ -86,7 +86,7 @@
  *
  *  @param canDragBack 是否可右滑返回
  */
-- (void)navigationCanDragBack:(BOOL)canDragBack;
+//- (void)navigationCanDragBack:(BOOL)canDragBack;
 
 
 ///**

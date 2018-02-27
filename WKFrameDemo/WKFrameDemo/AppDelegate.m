@@ -58,9 +58,9 @@
         self.tabbar = [[WKTabbarController alloc] init];
         self.tabbar.delegate = (id)self;
     }
-    SKStartPageViewController *page = [SKStartPageViewController new];
-    [self.window setRootViewController:page];
-//    [self.window setRootViewController:self.tabbar];
+//    SKStartPageViewController *page = [SKStartPageViewController new];
+//    [self.window setRootViewController:page];
+    [self.window setRootViewController:self.tabbar];
     
     [self.window makeKeyAndVisible];
     

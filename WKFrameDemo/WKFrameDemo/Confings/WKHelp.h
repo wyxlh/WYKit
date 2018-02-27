@@ -16,9 +16,9 @@
 //获取设备的物理宽度
 #define ScreenWidth  [UIScreen mainScreen].bounds.size.width
 //导航栏高度
-#define NavHeight 64.0f
+#define NavHeight (ScreenHeight == 812.0 ? 88.0f : 64.0f)
 // Tabbar 高度
-#define TabbarHeight 49.0f
+#define TabbarHeight  (ScreenHeight == 812.0 ? 83.0f : 49.0f)
 
 //自定义颜色 
 #define CustomColor(R,G,B,A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]

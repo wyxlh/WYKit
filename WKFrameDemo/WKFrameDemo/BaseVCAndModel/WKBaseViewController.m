@@ -8,11 +8,7 @@
 
 #import "WKBaseViewController.h"
 #import "AppDelegate.h"
-//#import "TYDotIndicatorView.h"
-//#import "JHUD.h"
 @interface WKBaseViewController ()
-//@property (nonatomic,strong)TYDotIndicatorView *hudView;
-//@property (nonatomic) JHUD *HView;
 @end
 #define ItemImagewidth 30.0f
 #define ItemButtonwidth 50.0f
@@ -21,8 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.automaticallyAdjustsScrollViewInsets = NO;
-    self.navigationController.navigationBar.hidden = YES;
+//    self.automaticallyAdjustsScrollViewInsets = NO;
+//    self.navigationController.navigationBar.hidden = YES;
     self.navigationController.navigationBar.translucent = NO;
     self.view.backgroundColor = [UIColor whiteColor];
       [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
@@ -45,15 +41,15 @@
  *
  */
 -(void)setTitle:(NSString *)title{
-    _navbar.titlelable.text = title;
+//    _navbar.titlelable.text = title;
 }
 /**
  *  添加NavBar
  */
 -(void)setNavBar{
     _navbar = [[WKNavigationView alloc] initWithFrame:CGRectMake(0, 0,ScreenWidth, NavHeight)];
-    _navbar.titlelable.text = self.title;
-    [self.view addSubview:_navbar];
+//    _navbar.titlelable.text = self.title;
+//    [self.view addSubview:_navbar];
    
 }
 
@@ -274,13 +270,13 @@
  *
  *  @param canDragBack canDragBack
  */
-- (void)navigationCanDragBack:(BOOL)canDragBack
-{
-    if (self.navigationController)
-    {
-        [((WKNavigationController *)(self.navigationController)) navigationCanDragBack:canDragBack];
-    }
-}
+//- (void)navigationCanDragBack:(BOOL)canDragBack
+//{
+//    if (self.navigationController)
+//    {
+//        [((WKNavigationController *)(self.navigationController)) navigationCanDragBack:canDragBack];
+//    }
+//}
 ///**
 // *  开始加载动画
 // */

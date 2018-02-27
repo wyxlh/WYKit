@@ -26,6 +26,7 @@
     return self;
 }
 
+
 - (NSString *)result
 {
     return [NSString strOrEmpty:[mDictionary objectForKey:@"result"]];

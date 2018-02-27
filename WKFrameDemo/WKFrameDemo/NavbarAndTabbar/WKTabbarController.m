@@ -83,7 +83,6 @@
     //图片偏移
 //    childVc.tabBarItem.imageInsets = UIEdgeInsetsMake(10, 0, 0, 0);
     childVc.tabBarItem.title = title;
-    
     WKNavigationController *nav = [[WKNavigationController alloc] initWithRootViewController:childVc];
     [self addChildViewController:nav];
 }
